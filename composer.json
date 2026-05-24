@@ -1,0 +1,6 @@
+{
+    "name": "glpi/aiticketrouter",
+    "require": {
+        "php": ">=7.4"
+    }
+}

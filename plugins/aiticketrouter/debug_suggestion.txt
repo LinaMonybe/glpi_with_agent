@@ -1,0 +1,655 @@
+2026-05-02 11:19:20 | __construct OK — AiSuggestionModel instancié
+2026-05-02 11:19:20 | __construct OK — AiSuggestionModel instancié
+2026-05-02 11:19:21 | __construct OK — AiSuggestionModel instancié
+2026-05-02 11:19:21 | === onTicketAdd — ticket #204 ===
+2026-05-02 11:19:21 | analyzeTicket terminé
+2026-05-02 11:19:21 | IA OK — cat=Divers u=1 i=1 p=1 provider=gemini
+2026-05-02 11:19:21 | __construct OK — AiSuggestionModel instancié
+2026-05-02 11:19:21 | Ticket #204 mis à jour (u/i/p)
+2026-05-02 11:19:23 | Solutions : retournées par IA
+2026-05-02 11:19:23 | Technicien : jeon jeon (id=7, tickets=0)
+2026-05-02 11:19:23 | Appel save() — ticket_id=204
+2026-05-02 11:19:23 | save() OK — ai_suggestions.id=1 ✓
+2026-05-02 11:19:23 | Followup ajouté OK
+2026-05-02 11:19:23 | === Fin onTicketAdd #204 ===
+
+2026-05-02 11:33:49 | __construct OK — AiSuggestionModel instancié
+2026-05-02 11:33:49 | __construct OK — AiSuggestionModel instancié
+2026-05-02 11:33:49 | __construct OK — AiSuggestionModel instancié
+2026-05-02 11:33:49 | === onTicketAdd — ticket #205 ===
+2026-05-02 11:33:51 | analyzeTicket terminé
+2026-05-02 11:33:51 | IA OK — cat=Divers u=1 i=1 p=1 provider=gemini
+2026-05-02 11:33:51 | __construct OK — AiSuggestionModel instancié
+2026-05-02 11:33:51 | Ticket #205 mis à jour (u/i/p)
+2026-05-02 11:33:53 | Solutions : retournées par IA
+2026-05-02 11:33:53 | Technicien : jeon jeon (id=7, tickets=0)
+2026-05-02 11:33:53 | Appel save() — ticket_id=205
+2026-05-02 11:33:53 | save() OK — ai_suggestions.id=2 ✓
+2026-05-02 11:33:53 | Followup ajouté OK
+2026-05-02 11:33:53 | === Fin onTicketAdd #205 ===
+
+2026-05-02 11:42:33 | __construct OK — AiSuggestionModel instancié
+2026-05-02 11:42:33 | __construct OK — AiSuggestionModel instancié
+2026-05-02 11:42:34 | __construct OK — AiSuggestionModel instancié
+2026-05-02 11:42:34 | === onTicketAdd — ticket #206 ===
+2026-05-02 11:42:34 | analyzeTicket terminé
+2026-05-02 11:42:34 | IA OK — cat=Divers u=1 i=1 p=1 provider=gemini
+2026-05-02 11:42:34 | __construct OK — AiSuggestionModel instancié
+2026-05-02 11:42:35 | Ticket #206 mis à jour (u/i/p)
+2026-05-02 11:42:36 | Solutions : retournées par IA
+2026-05-02 11:42:36 | Technicien : jeon jeon (id=7, tickets=0)
+2026-05-02 11:42:36 | Appel save() — ticket_id=206
+2026-05-02 11:42:36 | save() OK — ai_suggestions.id=3 ✓
+2026-05-02 11:42:36 | Followup ajouté OK
+2026-05-02 11:42:36 | === Fin onTicketAdd #206 ===
+
+2026-05-02 11:58:25 | __construct OK — AiSuggestionModel instancié
+2026-05-02 11:58:25 | __construct OK — AiSuggestionModel instancié
+2026-05-02 11:58:25 | __construct OK — AiSuggestionModel instancié
+2026-05-02 11:58:25 | === onTicketAdd — ticket #207 ===
+2026-05-02 11:58:26 | analyzeTicket terminé
+2026-05-02 11:58:26 | IA OK — cat=Réseau u=5 i=5 p=5 provider=gemini
+2026-05-02 11:58:26 | __construct OK — AiSuggestionModel instancié
+2026-05-02 11:58:26 | Ticket #207 mis à jour (u/i/p)
+2026-05-02 11:58:28 | Solutions : retournées par IA
+2026-05-02 11:58:28 | Technicien : jeon jeon (id=7, tickets=0)
+2026-05-02 11:58:28 | Appel save() — ticket_id=207
+2026-05-02 11:58:28 | save() OK — ai_suggestions.id=4 ✓
+2026-05-02 11:58:28 | Followup ajouté OK
+2026-05-02 11:58:28 | === Fin onTicketAdd #207 ===
+
+2026-05-02 12:00:28 | __construct OK — AiSuggestionModel instancié
+2026-05-02 12:00:28 | __construct OK — AiSuggestionModel instancié
+2026-05-02 12:00:28 | __construct OK — AiSuggestionModel instancié
+2026-05-02 12:00:28 | === onTicketAdd — ticket #208 ===
+2026-05-02 12:00:29 | analyzeTicket terminé
+2026-05-02 12:00:29 | IA OK — cat=Réseau u=5 i=5 p=5 provider=gemini
+2026-05-02 12:00:29 | __construct OK — AiSuggestionModel instancié
+2026-05-02 12:00:29 | Ticket #208 mis à jour (u/i/p)
+2026-05-02 12:00:32 | Solutions : fallback HTML
+2026-05-02 12:00:32 | Technicien : jeon jeon (id=7, tickets=0)
+2026-05-02 12:00:32 | Appel save() — ticket_id=208
+2026-05-02 12:00:32 | save() OK — ai_suggestions.id=5 ✓
+2026-05-02 12:00:32 | Followup ajouté OK
+2026-05-02 12:00:32 | === Fin onTicketAdd #208 ===
+
+2026-05-02 12:05:14 | __construct OK — AiSuggestionModel instancié
+2026-05-02 12:05:14 | __construct OK — AiSuggestionModel instancié
+2026-05-02 12:05:14 | __construct OK — AiSuggestionModel instancié
+2026-05-02 12:05:14 | === onTicketAdd — ticket #209 ===
+2026-05-02 12:05:16 | analyzeTicket terminé
+2026-05-02 12:05:16 | Fallback — cat=Réseau u=5 i=3 p=5
+2026-05-02 12:05:16 | __construct OK — AiSuggestionModel instancié
+2026-05-02 12:05:17 | Ticket #209 mis à jour (u/i/p)
+2026-05-02 12:05:19 | Solutions : fallback HTML
+2026-05-02 12:05:19 | Technicien : jeon jeon (id=7, tickets=0)
+2026-05-02 12:05:19 | Appel save() — ticket_id=209
+2026-05-02 12:05:19 | save() OK — ai_suggestions.id=6 ✓
+2026-05-02 12:05:19 | Followup ajouté OK
+2026-05-02 12:05:19 | === Fin onTicketAdd #209 ===
+
+2026-05-02 12:15:18 | __construct OK — AiSuggestionModel instancié
+2026-05-02 12:15:18 | __construct OK — AiSuggestionModel instancié
+2026-05-02 12:15:18 | __construct OK — AiSuggestionModel instancié
+2026-05-02 12:15:18 | === onTicketAdd — ticket #210 ===
+2026-05-02 12:15:21 | analyzeTicket terminé
+2026-05-02 12:15:21 | Fallback — cat=Général u=3 i=3 p=3
+2026-05-02 12:15:21 | __construct OK — AiSuggestionModel instancié
+2026-05-02 12:15:21 | Ticket #210 mis à jour (u/i/p)
+2026-05-02 12:15:23 | Solutions : fallback HTML
+2026-05-02 12:15:23 | Technicien : jeon jeon (id=7, tickets=0)
+2026-05-02 12:15:23 | Appel save() — ticket_id=210
+2026-05-02 12:15:23 | save() OK — ai_suggestions.id=7 ✓
+2026-05-02 12:15:23 | Followup ajouté OK
+2026-05-02 12:15:23 | === Fin onTicketAdd #210 ===
+
+2026-05-02 12:19:07 | __construct OK — AiSuggestionModel instancié
+2026-05-02 12:19:07 | __construct OK — AiSuggestionModel instancié
+2026-05-02 12:19:07 | __construct OK — AiSuggestionModel instancié
+2026-05-02 12:19:07 | === onTicketAdd — ticket #211 ===
+2026-05-02 12:19:09 | analyzeTicket terminé
+2026-05-02 12:19:09 | Fallback — cat=Réseau u=5 i=3 p=5
+2026-05-02 12:19:09 | __construct OK — AiSuggestionModel instancié
+2026-05-02 12:19:09 | Ticket #211 mis à jour (u/i/p)
+2026-05-02 12:19:12 | Solutions : fallback HTML
+2026-05-02 12:19:12 | Technicien : jeon jeon (id=7, tickets=0)
+2026-05-02 12:19:12 | Appel save() — ticket_id=211
+2026-05-02 12:19:12 | save() OK — ai_suggestions.id=8 ✓
+2026-05-02 12:19:12 | Followup ajouté OK
+2026-05-02 12:19:12 | === Fin onTicketAdd #211 ===
+
+2026-05-02 12:36:35 | __construct OK — AiSuggestionModel instancié
+2026-05-02 12:36:35 | __construct OK — AiSuggestionModel instancié
+2026-05-02 12:36:35 | __construct OK — AiSuggestionModel instancié
+2026-05-02 12:36:35 | === onTicketAdd — ticket #212 ===
+2026-05-02 12:36:38 | analyzeTicket terminé
+2026-05-02 12:36:38 | Fallback — cat=Général u=3 i=3 p=3
+2026-05-02 12:36:38 | __construct OK — AiSuggestionModel instancié
+2026-05-02 12:36:38 | Ticket #212 mis à jour (u/i/p)
+2026-05-02 12:36:41 | Solutions : fallback HTML
+2026-05-02 12:36:41 | Technicien : jeon jeon (id=7, tickets=0)
+2026-05-02 12:36:41 | Appel save() — ticket_id=212
+2026-05-02 12:36:41 | save() OK — ai_suggestions.id=9 ✓
+2026-05-02 12:36:41 | Followup ajouté OK
+2026-05-02 12:36:41 | === Fin onTicketAdd #212 ===
+
+2026-05-02 12:39:06 | __construct OK — AiSuggestionModel instancié
+2026-05-02 12:39:07 | __construct OK — AiSuggestionModel instancié
+2026-05-02 12:39:07 | __construct OK — AiSuggestionModel instancié
+2026-05-02 12:39:07 | === onTicketAdd — ticket #213 ===
+2026-05-02 12:39:09 | analyzeTicket terminé
+2026-05-02 12:39:09 | Fallback — cat=Général u=5 i=3 p=5
+2026-05-02 12:39:09 | __construct OK — AiSuggestionModel instancié
+2026-05-02 12:39:09 | Ticket #213 mis à jour (u/i/p)
+2026-05-02 12:39:12 | Solutions : fallback HTML
+2026-05-02 12:39:12 | Technicien : jeon jeon (id=7, tickets=0)
+2026-05-02 12:39:12 | Appel save() — ticket_id=213
+2026-05-02 12:39:12 | save() OK — ai_suggestions.id=10 ✓
+2026-05-02 12:39:12 | Followup ajouté OK
+2026-05-02 12:39:12 | === Fin onTicketAdd #213 ===
+
+2026-05-02 12:50:06 | __construct OK — AiSuggestionModel instancié
+2026-05-02 12:50:06 | __construct OK — AiSuggestionModel instancié
+2026-05-02 12:50:06 | __construct OK — AiSuggestionModel instancié
+2026-05-02 12:50:06 | === onTicketAdd — ticket #214 ===
+2026-05-02 12:50:08 | analyzeTicket terminé
+2026-05-02 12:50:08 | Fallback — cat=Général u=5 i=3 p=5
+2026-05-02 12:50:08 | __construct OK — AiSuggestionModel instancié
+2026-05-02 12:50:08 | Ticket #214 mis à jour (u/i/p)
+2026-05-02 12:50:11 | Solutions : fallback HTML
+2026-05-02 12:50:11 | Technicien : jeon jeon (id=7, tickets=0)
+2026-05-02 12:50:11 | Appel save() — ticket_id=214
+2026-05-02 12:50:11 | save() OK — ai_suggestions.id=11 ✓
+2026-05-02 12:50:11 | Followup ajouté OK
+2026-05-02 12:50:11 | === Fin onTicketAdd #214 ===
+
+2026-05-02 12:58:08 | __construct OK — AiSuggestionModel instancié
+2026-05-02 12:58:08 | __construct OK — AiSuggestionModel instancié
+2026-05-02 12:58:08 | __construct OK — AiSuggestionModel instancié
+2026-05-02 12:58:08 | === onTicketAdd — ticket #215 ===
+2026-05-02 12:58:10 | analyzeTicket terminé
+2026-05-02 12:58:10 | Fallback — cat=Général u=3 i=3 p=3
+2026-05-02 12:58:10 | __construct OK — AiSuggestionModel instancié
+2026-05-02 12:58:10 | Ticket #215 mis à jour (u/i/p)
+2026-05-02 12:58:13 | Solutions : fallback HTML
+2026-05-02 12:58:13 | Technicien : jeon jeon (id=7, tickets=0)
+2026-05-02 12:58:13 | Appel save() — ticket_id=215
+2026-05-02 12:58:13 | save() OK — ai_suggestions.id=12 ✓
+2026-05-02 12:58:13 | Followup ajouté OK
+2026-05-02 12:58:13 | === Fin onTicketAdd #215 ===
+
+2026-05-02 13:01:53 | __construct OK — AiSuggestionModel instancié
+2026-05-02 13:01:53 | __construct OK — AiSuggestionModel instancié
+2026-05-02 13:01:53 | __construct OK — AiSuggestionModel instancié
+2026-05-02 13:01:53 | === onTicketAdd — ticket #216 ===
+2026-05-02 13:01:56 | analyzeTicket terminé
+2026-05-02 13:01:56 | Fallback — cat=Réseau u=5 i=3 p=5
+2026-05-02 13:01:56 | __construct OK — AiSuggestionModel instancié
+2026-05-02 13:01:56 | Ticket #216 mis à jour (u/i/p)
+2026-05-02 13:01:58 | Solutions : fallback HTML
+2026-05-02 13:01:58 | Technicien : jeon jeon (id=7, tickets=0)
+2026-05-02 13:01:58 | Appel save() — ticket_id=216
+2026-05-02 13:01:58 | save() OK — ai_suggestions.id=13 ✓
+2026-05-02 13:01:58 | Followup ajouté OK
+2026-05-02 13:01:58 | === Fin onTicketAdd #216 ===
+
+2026-05-02 13:02:27 | __construct OK — AiSuggestionModel instancié
+2026-05-02 13:02:28 | __construct OK — AiSuggestionModel instancié
+2026-05-02 13:02:28 | __construct OK — AiSuggestionModel instancié
+2026-05-02 13:02:28 | === onTicketAdd — ticket #217 ===
+2026-05-02 13:02:30 | analyzeTicket terminé
+2026-05-02 13:02:30 | Fallback — cat=Général u=5 i=3 p=5
+2026-05-02 13:02:30 | __construct OK — AiSuggestionModel instancié
+2026-05-02 13:02:30 | Ticket #217 mis à jour (u/i/p)
+2026-05-02 13:02:33 | Solutions : fallback HTML
+2026-05-02 13:02:33 | Technicien : jeon jeon (id=7, tickets=0)
+2026-05-02 13:02:33 | Appel save() — ticket_id=217
+2026-05-02 13:02:33 | save() OK — ai_suggestions.id=14 ✓
+2026-05-02 13:02:33 | Followup ajouté OK
+2026-05-02 13:02:33 | === Fin onTicketAdd #217 ===
+
+2026-05-02 13:34:34 | __construct OK
+2026-05-02 13:34:53 | __construct OK
+2026-05-02 13:38:42 | __construct OK — AiSuggestionModel instancié
+2026-05-02 13:38:42 | __construct OK — AiSuggestionModel instancié
+2026-05-02 13:38:42 | __construct OK — AiSuggestionModel instancié
+2026-05-02 13:38:42 | === onTicketAdd — ticket #221 ===
+2026-05-02 13:38:45 | analyzeTicket terminé
+2026-05-02 13:38:45 | Fallback — cat=Réseau u=5 i=3 p=5
+2026-05-02 13:38:45 | __construct OK — AiSuggestionModel instancié
+2026-05-02 13:38:45 | Ticket #221 mis à jour (u/i/p)
+2026-05-02 13:38:48 | Solutions : fallback HTML
+2026-05-02 13:38:48 | Technicien : jeon jeon (id=7, tickets=0)
+2026-05-02 13:38:48 | Appel save() — ticket_id=221
+2026-05-02 13:38:48 | save() OK — ai_suggestions.id=15 ✓
+2026-05-02 13:40:44 | __construct OK — AiSuggestionModel instancié
+2026-05-02 13:40:44 | __construct OK — AiSuggestionModel instancié
+2026-05-02 13:40:45 | __construct OK — AiSuggestionModel instancié
+2026-05-02 13:40:45 | === onTicketAdd — ticket #222 ===
+2026-05-02 13:40:47 | analyzeTicket terminé
+2026-05-02 13:40:47 | Fallback — cat=Réseau u=5 i=3 p=5
+2026-05-02 13:40:47 | __construct OK — AiSuggestionModel instancié
+2026-05-02 13:40:47 | Ticket #222 mis à jour (u/i/p)
+2026-05-02 13:40:50 | Solutions : fallback HTML
+2026-05-02 13:40:50 | Technicien : jeon jeon (id=7, tickets=0)
+2026-05-02 13:40:50 | Appel save() — ticket_id=222
+2026-05-02 13:40:50 | save() OK — ai_suggestions.id=16 ✓
+2026-05-02 13:40:50 | Followup ajouté OK
+2026-05-02 13:40:50 | === Fin onTicketAdd #222 ===
+
+2026-05-02 14:02:18 | __construct OK — AiSuggestionModel instancié
+2026-05-02 14:02:18 | __construct OK — AiSuggestionModel instancié
+2026-05-02 14:02:18 | __construct OK — AiSuggestionModel instancié
+2026-05-02 14:02:18 | === onTicketAdd — ticket #223 ===
+2026-05-02 14:02:20 | analyzeTicket terminé
+2026-05-02 14:02:20 | Fallback — cat=Réseau u=5 i=3 p=5
+2026-05-02 14:02:20 | __construct OK — AiSuggestionModel instancié
+2026-05-02 14:02:20 | Ticket #223 mis à jour (u/i/p)
+2026-05-02 14:02:23 | Solutions : fallback HTML
+2026-05-02 14:02:23 | Technicien : jeon jeon (id=7, tickets=0)
+2026-05-02 14:02:23 | Appel save() — ticket_id=223
+2026-05-02 14:02:23 | save() OK — ai_suggestions.id=17 ✓
+2026-05-02 14:02:23 | Followup ajouté OK
+2026-05-02 14:02:23 | === Fin onTicketAdd #223 ===
+
+2026-05-02 14:03:03 | __construct OK — AiSuggestionModel instancié
+2026-05-02 14:03:03 | __construct OK — AiSuggestionModel instancié
+2026-05-02 14:03:03 | __construct OK — AiSuggestionModel instancié
+2026-05-02 14:03:03 | === onTicketAdd — ticket #224 ===
+2026-05-02 14:03:05 | analyzeTicket terminé
+2026-05-02 14:03:05 | Fallback — cat=Réseau u=5 i=3 p=5
+2026-05-02 14:03:05 | __construct OK — AiSuggestionModel instancié
+2026-05-02 14:03:05 | Ticket #224 mis à jour (u/i/p)
+2026-05-02 14:03:08 | Solutions : fallback HTML
+2026-05-02 14:03:08 | Technicien : jeon jeon (id=7, tickets=0)
+2026-05-02 14:03:08 | Appel save() — ticket_id=224
+2026-05-02 14:03:08 | save() OK — ai_suggestions.id=18 ✓
+2026-05-02 14:03:08 | Followup ajouté OK
+2026-05-02 14:03:08 | === Fin onTicketAdd #224 ===
+
+2026-05-02 15:11:28 | __construct OK — AiSuggestionModel instancié
+2026-05-02 15:11:28 | __construct OK — AiSuggestionModel instancié
+2026-05-02 15:11:29 | __construct OK — AiSuggestionModel instancié
+2026-05-02 15:11:29 | === onTicketAdd — ticket #225 ===
+2026-05-02 15:11:30 | analyzeTicket terminé
+2026-05-02 15:11:30 | IA OK — cat=Réseau u=5 i=5 p=5 provider=gemini
+2026-05-02 15:11:30 | __construct OK — AiSuggestionModel instancié
+2026-05-02 15:11:30 | Ticket #225 mis à jour (u/i/p)
+2026-05-02 15:11:32 | Solutions : fallback HTML
+2026-05-02 15:11:32 | Technicien : jeon jeon (id=7, tickets=0)
+2026-05-02 15:11:32 | Appel save() — ticket_id=225
+2026-05-02 15:11:32 | save() OK — ai_suggestions.id=19 ✓
+2026-05-02 15:11:32 | Followup ajouté OK
+2026-05-02 15:11:32 | === Fin onTicketAdd #225 ===
+
+2026-05-02 16:05:50 | __construct OK — AiSuggestionModel instancié
+2026-05-02 16:05:50 | __construct OK — AiSuggestionModel instancié
+2026-05-02 16:05:50 | __construct OK — AiSuggestionModel instancié
+2026-05-02 16:05:50 | === onTicketAdd — ticket #228 ===
+2026-05-02 16:05:53 | analyzeTicket terminé
+2026-05-02 16:05:53 | Fallback — cat=Réseau u=5 i=3 p=5
+2026-05-02 16:05:53 | __construct OK — AiSuggestionModel instancié
+2026-05-02 16:05:53 | Ticket #228 mis à jour (u/i/p)
+2026-05-02 16:05:56 | Solutions : fallback HTML
+2026-05-02 16:05:56 | Technicien : jeon jeon (id=7, tickets=0)
+2026-05-02 16:05:56 | Appel save() — ticket_id=228
+2026-05-02 16:05:56 | save() OK — ai_suggestions.id=20 ✓
+2026-05-02 16:05:56 | Followup ajouté OK
+2026-05-02 16:05:56 | === Fin onTicketAdd #228 ===
+
+2026-05-02 16:27:08 | __construct OK — AiSuggestionModel instancié
+2026-05-02 16:27:08 | __construct OK — AiSuggestionModel instancié
+2026-05-02 16:27:08 | __construct OK — AiSuggestionModel instancié
+2026-05-02 16:27:08 | === onTicketAdd — ticket #229 ===
+2026-05-02 16:27:11 | analyzeTicket terminé
+2026-05-02 16:27:11 | Fallback — cat=Général u=3 i=3 p=3
+2026-05-02 16:27:11 | __construct OK — AiSuggestionModel instancié
+2026-05-02 16:27:11 | Ticket #229 mis à jour (u/i/p)
+2026-05-02 16:27:13 | Solutions : fallback HTML
+2026-05-02 16:27:13 | Technicien : jeon jeon (id=7, tickets=0)
+2026-05-02 16:27:13 | Appel save() — ticket_id=229
+2026-05-02 16:27:14 | save() OK — ai_suggestions.id=21 ✓
+2026-05-02 16:27:14 | Followup ajouté OK
+2026-05-02 16:27:14 | === Fin onTicketAdd #229 ===
+
+2026-05-02 16:27:33 | __construct OK — AiSuggestionModel instancié
+2026-05-02 16:27:33 | __construct OK — AiSuggestionModel instancié
+2026-05-02 16:27:33 | __construct OK — AiSuggestionModel instancié
+2026-05-02 16:27:33 | === onTicketAdd — ticket #230 ===
+2026-05-02 16:27:36 | analyzeTicket terminé
+2026-05-02 16:27:36 | Fallback — cat=Réseau u=5 i=3 p=5
+2026-05-02 16:27:36 | __construct OK — AiSuggestionModel instancié
+2026-05-02 16:27:36 | Ticket #230 mis à jour (u/i/p)
+2026-05-02 16:27:39 | Solutions : fallback HTML
+2026-05-02 16:27:39 | Technicien : jeon jeon (id=7, tickets=0)
+2026-05-02 16:27:39 | Appel save() — ticket_id=230
+2026-05-02 16:27:39 | save() OK — ai_suggestions.id=22 ✓
+2026-05-02 16:27:39 | Followup ajouté OK
+2026-05-02 16:27:39 | === Fin onTicketAdd #230 ===
+
+2026-05-02 16:31:25 | __construct OK — AiSuggestionModel instancié
+2026-05-02 16:31:25 | __construct OK — AiSuggestionModel instancié
+2026-05-02 16:31:25 | __construct OK — AiSuggestionModel instancié
+2026-05-02 16:31:25 | === onTicketAdd — ticket #231 ===
+2026-05-02 16:31:28 | analyzeTicket terminé
+2026-05-02 16:31:28 | Fallback — cat=Réseau u=5 i=3 p=5
+2026-05-02 16:31:28 | __construct OK — AiSuggestionModel instancié
+2026-05-02 16:31:28 | Ticket #231 mis à jour (u/i/p)
+2026-05-02 16:31:31 | Solutions : fallback HTML
+2026-05-02 16:31:31 | Technicien : jeon jeon (id=7, tickets=0)
+2026-05-02 16:31:31 | Appel save() — ticket_id=231
+2026-05-02 16:31:31 | save() OK — ai_suggestions.id=23 ✓
+2026-05-02 16:31:31 | Followup ajouté OK
+2026-05-02 16:31:31 | === Fin onTicketAdd #231 ===
+
+2026-05-02 16:32:47 | __construct OK — AiSuggestionModel instancié
+2026-05-02 16:37:33 | __construct OK
+2026-05-02 16:37:33 | __construct OK
+2026-05-02 16:37:33 | __construct OK
+2026-05-02 16:37:33 | === onTicketAdd — ticket #232 ===
+2026-05-02 16:37:36 | Fallback — cat=Réseau u=5 i=3 p=5
+2026-05-02 16:37:39 | Technicien : jeon jeon (id=7)
+2026-05-02 16:37:39 | save() OK — id=24 ✓
+2026-05-02 16:37:39 | Followup ajouté OK
+2026-05-02 16:37:39 | === Fin onTicketAdd #232 ===
+
+2026-05-02 16:48:42 | __construct OK
+2026-05-02 16:48:42 | __construct OK
+2026-05-02 16:48:43 | __construct OK
+2026-05-02 16:48:43 | === onTicketAdd — ticket #233 ===
+2026-05-02 16:48:45 | Fallback — cat=Réseau u=5 i=3 p=5
+2026-05-02 16:48:48 | Technicien : jeon jeon (id=7)
+2026-05-02 16:48:48 | save() OK — id=25 ✓
+2026-05-02 16:48:48 | Followup ajouté OK
+2026-05-02 16:48:48 | === Fin onTicketAdd #233 ===
+
+2026-05-02 17:24:46 | __construct OK
+2026-05-02 17:24:47 | __construct OK
+2026-05-02 17:24:47 | __construct OK
+2026-05-02 17:24:47 | === onTicketAdd — ticket #234 ===
+2026-05-02 17:24:50 | Fallback — cat=Réseau u=5 i=3 p=5
+2026-05-02 17:24:52 | Technicien : jeon jeon (id=7)
+2026-05-02 17:24:52 | save() OK — id=26 ✓
+2026-05-02 17:24:52 | Followup ajouté OK
+2026-05-02 17:24:52 | === Fin onTicketAdd #234 ===
+
+2026-05-02 17:59:26 | __construct OK
+2026-05-02 17:59:27 | __construct OK
+2026-05-02 17:59:27 | __construct OK
+2026-05-02 17:59:27 | === onTicketAdd — ticket #235 ===
+2026-05-02 17:59:29 | Fallback — cat=Réseau u=5 i=3 p=5
+2026-05-02 17:59:32 | Technicien : jeon jeon (id=7)
+2026-05-02 17:59:32 | save() OK — id=27 ✓
+2026-05-02 17:59:32 | Followup ajouté OK
+2026-05-02 17:59:32 | === Fin onTicketAdd #235 ===
+
+2026-05-02 18:09:56 | __construct OK
+2026-05-02 18:09:56 | __construct OK
+2026-05-02 18:09:57 | __construct OK
+2026-05-02 18:09:57 | === onTicketAdd — ticket #236 ===
+2026-05-02 18:09:59 | Fallback — cat=Réseau u=5 i=3 p=5
+2026-05-02 18:10:02 | Technicien : jeon jeon (id=7)
+2026-05-02 18:10:02 | save() OK — id=28 ✓
+2026-05-02 18:10:02 | Followup ajouté OK
+2026-05-02 18:10:02 | === Fin onTicketAdd #236 ===
+
+2026-05-02 18:13:20 | __construct OK
+2026-05-02 19:10:15 | __construct OK
+2026-05-02 19:10:16 | __construct OK
+2026-05-02 19:10:16 | __construct OK
+2026-05-02 19:10:16 | === onTicketAdd — ticket #237 ===
+2026-05-02 19:10:18 | Fallback — cat=Réseau u=5 i=3 p=5
+2026-05-02 19:10:21 | Technicien : jeon jeon (id=7)
+2026-05-02 19:10:21 | save() OK — id=29 ✓
+2026-05-02 19:10:21 | Followup ajouté OK
+2026-05-02 19:10:21 | === Fin onTicketAdd #237 ===
+
+2026-05-02 19:16:17 | __construct OK
+2026-05-02 19:16:17 | __construct OK
+2026-05-02 19:16:17 | __construct OK
+2026-05-02 19:16:17 | === onTicketAdd — ticket #238 ===
+2026-05-02 19:16:20 | Fallback — cat=Réseau u=5 i=3 p=5
+2026-05-02 19:16:23 | Technicien : jeon jeon (id=7)
+2026-05-02 19:16:23 | save() OK — id=30 ✓
+2026-05-02 19:16:23 | Followup ajouté OK
+2026-05-02 19:16:23 | === Fin onTicketAdd #238 ===
+
+2026-05-02 19:17:26 | __construct OK
+2026-05-02 19:17:56 | __construct OK
+2026-05-02 19:18:20 | __construct OK
+2026-05-02 19:18:43 | __construct OK
+2026-05-02 19:27:11 | __construct OK
+2026-05-02 19:27:12 | __construct OK
+2026-05-02 19:27:12 | __construct OK
+2026-05-02 19:27:12 | === onTicketAdd — ticket #239 ===
+2026-05-02 19:27:14 | Fallback — cat=Réseau u=5 i=3 p=5
+2026-05-02 19:27:17 | Technicien : tech (id=4)
+2026-05-02 19:27:17 | save() OK — id=31 ✓
+2026-05-02 19:27:17 | Followup ajouté OK
+2026-05-02 19:27:17 | === Fin onTicketAdd #239 ===
+
+2026-05-02 19:27:39 | __construct OK
+2026-05-02 19:30:36 | __construct OK
+2026-05-02 19:30:36 | __construct OK
+2026-05-02 19:30:36 | __construct OK
+2026-05-02 19:30:36 | === onTicketAdd — ticket #240 ===
+2026-05-02 19:30:39 | Fallback — cat=Réseau u=5 i=3 p=5
+2026-05-02 19:30:41 | Technicien : tech (id=4)
+2026-05-02 19:30:41 | save() OK — id=32 ✓
+2026-05-02 19:30:41 | Followup ajouté OK
+2026-05-02 19:30:41 | === Fin onTicketAdd #240 ===
+
+2026-05-02 19:33:24 | __construct OK
+2026-05-02 19:33:24 | __construct OK
+2026-05-02 19:33:24 | __construct OK
+2026-05-02 19:33:24 | === onTicketAdd — ticket #241 ===
+2026-05-02 19:33:27 | Fallback — cat=Réseau u=5 i=3 p=5
+2026-05-02 19:33:29 | Technicien : tech (id=4)
+2026-05-02 19:33:29 | save() OK — id=33 ✓
+2026-05-02 19:33:29 | Followup ajouté OK
+2026-05-02 19:33:29 | === Fin onTicketAdd #241 ===
+
+2026-05-02 19:36:20 | __construct OK
+2026-05-02 19:36:20 | __construct OK
+2026-05-02 19:36:20 | __construct OK
+2026-05-02 19:36:20 | === onTicketAdd — ticket #242 ===
+2026-05-02 19:36:23 | Fallback — cat=Réseau u=5 i=3 p=5
+2026-05-02 19:36:25 | Technicien : tech (id=4)
+2026-05-02 19:36:25 | save() OK — id=34 ✓
+2026-05-02 19:36:25 | Followup ajouté OK
+2026-05-02 19:36:25 | === Fin onTicketAdd #242 ===
+
+2026-05-02 19:37:04 | __construct OK
+2026-05-02 19:37:04 | __construct OK
+2026-05-02 19:37:04 | __construct OK
+2026-05-02 19:37:04 | === onTicketAdd — ticket #243 ===
+2026-05-02 19:37:07 | Fallback — cat=Général u=3 i=3 p=3
+2026-05-02 19:37:09 | Technicien : tech (id=4)
+2026-05-02 19:37:09 | save() OK — id=35 ✓
+2026-05-02 19:37:09 | Followup ajouté OK
+2026-05-02 19:37:09 | === Fin onTicketAdd #243 ===
+
+2026-05-02 19:43:22 | __construct OK
+2026-05-02 19:43:22 | __construct OK
+2026-05-02 19:43:22 | __construct OK
+2026-05-02 19:43:22 | === onTicketAdd — ticket #244 ===
+2026-05-02 19:43:25 | Fallback — cat=Réseau u=5 i=3 p=5
+2026-05-02 19:43:27 | Technicien : tech (id=4)
+2026-05-02 19:43:27 | save() OK — id=36 ✓
+2026-05-02 19:43:27 | Followup ajouté OK
+2026-05-02 19:43:27 | === Fin onTicketAdd #244 ===
+
+2026-05-02 19:44:16 | __construct OK
+2026-05-02 19:44:16 | __construct OK
+2026-05-02 19:44:16 | __construct OK
+2026-05-02 19:44:16 | === onTicketAdd — ticket #245 ===
+2026-05-02 19:44:18 | Fallback — cat=Réseau u=5 i=3 p=5
+2026-05-02 19:44:21 | Technicien : tech (id=4)
+2026-05-02 19:44:21 | save() OK — id=37 ✓
+2026-05-02 19:44:21 | Followup ajouté OK
+2026-05-02 19:44:21 | === Fin onTicketAdd #245 ===
+
+2026-05-02 19:54:16 | __construct OK
+2026-05-02 19:54:16 | __construct OK
+2026-05-02 19:54:16 | __construct OK
+2026-05-02 19:54:16 | === onTicketAdd — ticket #246 ===
+2026-05-02 19:54:19 | Fallback — cat=Réseau u=5 i=3 p=5
+2026-05-02 19:54:21 | Technicien : tech (id=4)
+2026-05-02 19:54:21 | save() OK — id=38 ✓
+2026-05-02 19:54:21 | Followup ajouté OK
+2026-05-02 19:54:21 | === Fin onTicketAdd #246 ===
+
+2026-05-02 19:57:03 | __construct OK
+2026-05-02 19:57:03 | __construct OK
+2026-05-02 19:57:03 | __construct OK
+2026-05-02 19:57:03 | === onTicketAdd — ticket #247 ===
+2026-05-02 19:57:06 | Fallback — cat=Réseau u=5 i=3 p=5
+2026-05-02 19:57:08 | Technicien : tech (id=4)
+2026-05-02 19:57:08 | save() OK — id=39 ✓
+2026-05-02 19:57:08 | Followup ajouté OK
+2026-05-02 19:57:08 | === Fin onTicketAdd #247 ===
+
+2026-05-02 20:00:41 | __construct OK
+2026-05-02 20:00:42 | __construct OK
+2026-05-02 20:00:42 | __construct OK
+2026-05-02 20:00:42 | === onTicketAdd — ticket #248 ===
+2026-05-02 20:00:44 | Fallback — cat=Réseau u=5 i=3 p=5
+2026-05-02 20:00:47 | Technicien : tech (id=4)
+2026-05-02 20:00:47 | save() OK — id=40 ✓
+2026-05-02 20:00:47 | Followup ajouté OK
+2026-05-02 20:00:47 | === Fin onTicketAdd #248 ===
+
+2026-05-02 20:03:54 | __construct OK
+2026-05-02 20:03:54 | __construct OK
+2026-05-02 20:03:54 | __construct OK
+2026-05-02 20:03:54 | === onTicketAdd — ticket #249 ===
+2026-05-02 20:03:57 | Fallback — cat=Réseau u=5 i=3 p=5
+2026-05-02 20:04:00 | Technicien : tech (id=4)
+2026-05-02 20:04:00 | save() OK — id=41 ✓
+2026-05-02 20:04:00 | Followup ajouté OK
+2026-05-02 20:04:00 | === Fin onTicketAdd #249 ===
+
+2026-05-02 20:07:54 | __construct OK
+2026-05-02 20:07:54 | __construct OK
+2026-05-02 20:07:54 | __construct OK
+2026-05-02 20:07:54 | === onTicketAdd — ticket #250 ===
+2026-05-02 20:07:57 | Fallback — cat=Réseau u=5 i=3 p=5
+2026-05-02 20:07:59 | Technicien : tech (id=4)
+2026-05-02 20:07:59 | save() OK — id=42 ✓
+2026-05-02 20:07:59 | Followup ajouté OK
+2026-05-02 20:07:59 | === Fin onTicketAdd #250 ===
+
+2026-05-02 20:22:57 | __construct OK
+2026-05-02 20:22:57 | __construct OK
+2026-05-02 20:22:57 | __construct OK
+2026-05-02 20:22:57 | === onTicketAdd — ticket #251 ===
+2026-05-02 20:23:00 | Fallback — cat=Réseau u=5 i=3 p=5
+2026-05-02 20:23:02 | Technicien : tech (id=4)
+2026-05-02 20:23:02 | save() OK — id=43 ✓
+2026-05-02 20:23:02 | Followup ajouté OK
+2026-05-02 20:23:02 | === Fin onTicketAdd #251 ===
+
+2026-05-02 20:26:50 | __construct OK
+2026-05-09 22:20:08 | __construct OK
+2026-05-09 22:20:08 | __construct OK
+2026-05-09 22:20:08 | __construct OK
+2026-05-09 22:20:08 | === onTicketAdd — ticket #50 ===
+2026-05-09 22:20:10 | IA OK — cat=Non spécifié u=1 i=1 p=1
+2026-05-09 22:20:12 | Technicien : Douae Tahiri (id=4)
+2026-05-09 22:20:12 | ERREUR save() retourné false
+2026-05-09 22:20:12 | Followup ajouté OK
+2026-05-09 22:20:12 | === Fin onTicketAdd #50 ===
+
+2026-05-09 22:26:31 | __construct OK
+2026-05-09 22:26:31 | __construct OK
+2026-05-09 22:26:31 | __construct OK
+2026-05-09 22:26:31 | === onTicketAdd — ticket #51 ===
+2026-05-09 22:26:32 | IA OK — cat=Divers u=1 i=1 p=1
+2026-05-09 22:26:33 | Technicien : Douae Tahiri (id=4)
+2026-05-09 22:26:33 | ERREUR save() retourné false
+2026-05-09 22:26:33 | Followup ajouté OK
+2026-05-09 22:26:33 | === Fin onTicketAdd #51 ===
+
+2026-05-10 09:12:08 | __construct OK
+2026-05-10 09:12:08 | __construct OK
+2026-05-10 09:12:08 | __construct OK
+2026-05-10 09:12:08 | === onTicketAdd — ticket #52 ===
+2026-05-10 09:12:10 | IA OK — cat=Matériel u=3 i=3 p=3
+2026-05-10 09:12:11 | Technicien : Douae Tahiri (id=4)
+2026-05-10 09:12:11 | ERREUR save() retourné false
+2026-05-10 09:12:11 | Followup ajouté OK
+2026-05-10 09:12:11 | === Fin onTicketAdd #52 ===
+
+2026-05-13 23:18:28 | __construct OK
+2026-05-13 23:31:30 | __construct OK
+2026-05-13 23:31:59 | __construct OK
+2026-05-13 23:31:59 | __construct OK
+2026-05-13 23:31:59 | __construct OK
+2026-05-13 23:31:59 | === onTicketAdd — ticket #55 ===
+2026-05-13 23:32:00 | IA OK — cat=Matériel u=5 i=5 p=5
+2026-05-13 23:32:02 | Technicien : Douae Tahiri (id=4)
+2026-05-13 23:32:02 | ERREUR save() retourné false
+2026-05-13 23:32:02 | Followup ajouté OK
+2026-05-13 23:32:02 | === Fin onTicketAdd #55 ===
+
+2026-05-13 23:37:58 | __construct OK
+2026-05-13 23:38:18 | __construct OK
+2026-05-14 00:00:30 | __construct OK
+2026-05-14 00:00:30 | __construct OK
+2026-05-14 00:00:30 | __construct OK
+2026-05-14 00:00:30 | === onTicketAdd — ticket #58 ===
+2026-05-14 00:02:32 | __construct OK
+2026-05-14 00:02:32 | __construct OK
+2026-05-14 00:02:32 | __construct OK
+2026-05-14 00:02:32 | === onTicketAdd — ticket #59 ===
+2026-05-14 00:03:50 | __construct OK
+2026-05-14 00:03:50 | __construct OK
+2026-05-14 00:03:50 | __construct OK
+2026-05-14 00:03:50 | === onTicketAdd — ticket #60 ===
+2026-05-14 00:05:47 | __construct OK
+2026-05-14 00:05:47 | __construct OK
+2026-05-14 00:05:48 | __construct OK
+2026-05-14 00:05:48 | === onTicketAdd — ticket #61 ===
+2026-05-14 00:08:37 | __construct OK
+2026-05-14 00:08:37 | __construct OK
+2026-05-14 00:08:37 | __construct OK
+2026-05-14 00:08:37 | === onTicketAdd — ticket #62 ===
+2026-05-14 00:09:44 | __construct OK
+2026-05-14 00:09:44 | __construct OK
+2026-05-14 00:09:44 | __construct OK
+2026-05-14 00:09:44 | === onTicketAdd — ticket #63 ===
+2026-05-14 00:09:54 | IA OK — cat=Matériel u=5 i=5 p=5
+2026-05-14 00:09:56 | Technicien : Douae Tahiri (id=4)
+2026-05-14 00:09:56 | ERREUR save() retourné false
+2026-05-14 00:09:56 | Followup ajouté OK
+2026-05-14 00:09:56 | === Fin onTicketAdd #63 ===
+
+2026-05-14 00:16:12 | __construct OK
+2026-05-14 00:16:12 | __construct OK
+2026-05-14 00:16:12 | __construct OK
+2026-05-14 00:20:47 | __construct OK
+2026-05-14 00:20:47 | __construct OK
+2026-05-14 00:20:47 | __construct OK
+2026-05-14 00:21:19 | __construct OK
+2026-05-14 00:21:19 | __construct OK
+2026-05-14 00:21:19 | __construct OK
+2026-05-14 00:21:19 | === onTicketAdd — ticket #66 ===
+2026-05-14 00:21:23 | IA OK — cat=Logiciel u=3 i=2 p=3
+2026-05-14 00:21:28 | Technicien : Douae Tahiri (id=4)
+2026-05-14 00:21:28 | ERREUR save() retourné false
+2026-05-14 00:21:28 | Followup ajouté OK
+2026-05-14 00:21:28 | === Fin onTicketAdd #66 ===
+
+2026-05-14 00:21:53 | __construct OK
+2026-05-14 00:21:53 | __construct OK
+2026-05-14 00:21:53 | __construct OK
+2026-05-14 00:21:53 | === onTicketAdd — ticket #67 ===
+2026-05-14 00:21:54 | IA OK — cat=Matériel u=5 i=5 p=5
+2026-05-14 00:22:00 | Technicien : Douae Tahiri (id=4)
+2026-05-14 00:22:00 | ERREUR save() retourné false
+2026-05-14 00:22:00 | Followup ajouté OK
+2026-05-14 00:22:00 | === Fin onTicketAdd #67 ===
+
+2026-05-14 00:22:29 | __construct OK
+2026-05-14 00:22:49 | __construct OK
+2026-05-14 00:23:08 | __construct OK

@@ -1,0 +1,127 @@
+2026-04-27 20:22:50 | Ticket #27 | IA: Gemini | Catégorie: Réseau
+2026-04-27 20:24:52 | Ticket #28 | IA: Gemini | Catégorie: Général
+2026-04-27 23:40:02 | Ticket #137 | IA: Gemini | Catégorie: Général
+2026-04-27 23:53:34 | Ticket #138 | IA: Gemini | Catégorie: Général
+2026-04-27 23:56:23 | Ticket #139 | IA: Gemini | Catégorie: Réseau
+2026-05-01 17:55:13 | Ticket #32 | IA: Gemini | Catégorie: Général
+2026-05-01 17:59:55 | Ticket #33 | IA: Gemini | Catégorie: Matériel
+2026-05-01 19:23:05 Gemini Error HTTP 404
+2026-05-01 19:23:05 Gemini Error HTTP 404
+2026-05-01 20:02:20 Gemini Error HTTP 404 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyBEhThkqBmU2L5cjwPxtJ1z5xkx2x1-ULk
+2026-05-01 20:02:20 Gemini Error HTTP 404 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyBEhThkqBmU2L5cjwPxtJ1z5xkx2x1-ULk
+2026-05-01 20:05:51 Gemini Error HTTP 404 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyBEhThkqBmU2L5cjwPxtJ1z5xkx2x1-ULk
+2026-05-01 20:05:51 Gemini Error HTTP 404 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyBEhThkqBmU2L5cjwPxtJ1z5xkx2x1-ULk
+2026-05-01 20:11:57 Gemini Error HTTP 404 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyCLXWXCDg5P9oWloe9L0G0cAXL1L7xW--A
+2026-05-01 20:11:57 Gemini Error HTTP 404 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyCLXWXCDg5P9oWloe9L0G0cAXL1L7xW--A
+2026-05-01 20:25:58 | Ticket #38 | IA | Catégorie: Logiciel
+2026-05-01 21:49:59 | Ticket #39 | IA | Catégorie: Réseau
+2026-05-01 21:52:41 | Ticket #40 | IA | Catégorie: Général
+2026-05-01 21:52:43 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCLXWXCDg5P9oWloe9L0G0cAXL1L7xW--A
+2026-05-01 22:01:50 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCLXWXCDg5P9oWloe9L0G0cAXL1L7xW--A
+2026-05-01 22:01:51 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCLXWXCDg5P9oWloe9L0G0cAXL1L7xW--A
+2026-05-01 22:08:28 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCLXWXCDg5P9oWloe9L0G0cAXL1L7xW--A
+2026-05-01 22:08:31 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCLXWXCDg5P9oWloe9L0G0cAXL1L7xW--A
+2026-05-01 22:12:43 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyBEhThkqBmU2L5cjwPxtJ1z5xkx2x1-ULk
+2026-05-01 22:12:46 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyBEhThkqBmU2L5cjwPxtJ1z5xkx2x1-ULk
+2026-05-01 22:17:47 | Ticket #44 | IA | Catégorie: Divers
+2026-05-01 22:37:02 | Ticket #45 | IA | Catégorie: Base de données
+2026-05-01 23:56:25 | Ticket #46 | IA | Catégorie: Base de données
+2026-05-02 00:23:04 | Ticket #47 | IA | Catégorie: Réseau
+2026-05-02 00:41:40 | Ticket #48 | IA | Catégorie: Base de données
+2026-05-02 00:42:34 | Ticket #49 | IA | Catégorie: Général
+2026-05-02 10:29:15 | Ticket #198 | IA | Catégorie: Divers
+2026-05-02 10:48:49 | Ticket #199 | IA | Catégorie: Général
+2026-05-02 10:51:37 | Ticket #200 | IA | Catégorie: Divers
+2026-05-02 11:01:51 | Ticket #201 | IA | Catégorie: Divers
+2026-05-02 11:13:09 | Ticket #203 | IA | Catégorie: Divers
+2026-05-02 11:19:21 | Ticket #204 | IA | Catégorie: Divers
+2026-05-02 11:33:51 | Ticket #205 | IA | Catégorie: Divers
+2026-05-02 11:42:34 | Ticket #206 | IA | Catégorie: Divers
+2026-05-02 11:58:26 | Ticket #207 | IA | Catégorie: Réseau
+2026-05-02 12:00:29 | Ticket #208 | IA | Catégorie: Réseau
+2026-05-02 12:00:32 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 12:05:16 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 12:05:19 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 12:15:21 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 12:15:23 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 12:19:09 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 12:19:12 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 12:36:38 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 12:36:41 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 12:39:09 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 12:39:12 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 12:50:08 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 12:50:11 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 12:58:10 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 12:58:13 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 13:01:56 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 13:01:58 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 13:02:30 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 13:02:33 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 13:36:08 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 13:36:10 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 13:38:45 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 13:38:48 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 13:40:47 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 13:40:50 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 14:02:20 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 14:02:23 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 14:03:05 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 14:03:08 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 15:11:30 | Ticket #225 | IA | Catégorie: Réseau
+2026-05-02 15:11:32 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 16:05:53 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 16:05:56 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 16:27:11 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 16:27:13 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 16:27:36 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 16:27:39 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 16:31:28 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 16:31:31 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 16:37:36 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 16:37:39 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 16:48:45 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 16:48:48 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 17:24:50 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 17:24:52 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 17:59:29 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 17:59:32 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 18:09:59 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 18:10:02 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 19:10:18 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 19:10:21 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 19:16:20 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 19:16:23 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 19:27:14 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 19:27:17 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 19:30:39 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 19:30:41 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 19:33:27 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 19:33:29 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 19:36:23 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 19:36:25 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 19:37:07 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 19:37:09 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 19:43:25 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 19:43:27 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 19:44:18 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 19:44:21 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 19:54:19 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 19:54:21 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 19:57:06 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 19:57:08 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 20:00:44 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 20:00:47 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 20:03:57 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 20:04:00 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 20:07:57 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 20:07:59 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 20:23:00 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-02 20:23:02 Gemini Error HTTP 429 |  | URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyCRDEoYJV_x82QwqGrD2jUn1MHaQzSvld8
+2026-05-09 22:20:10 | Ticket #50 | IA | Catégorie: Non spécifié
+2026-05-09 22:26:32 | Ticket #51 | IA | Catégorie: Divers
+2026-05-10 09:12:10 | Ticket #52 | IA | Catégorie: Matériel
+2026-05-13 23:32:00 | Ticket #55 | IA | Catégorie: Matériel
+2026-05-14 00:09:54 | Ticket #63 | IA | Catégorie: Matériel
+2026-05-14 00:21:23 | Ticket #66 | IA | Catégorie: Logiciel
+2026-05-14 00:21:54 | Ticket #67 | IA | Catégorie: Matériel

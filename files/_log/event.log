@@ -1,0 +1,66 @@
+2026-04-12 15:49:58 [@DESKTOP-8RG8EB9]
+[login] 3: glpi se connecte depuis l'IP ::1
+2026-04-13 13:35:41 [@DESKTOP-8RG8EB9]
+[login] 3:  se connecte depuis l'IP ::1
+2026-04-13 13:35:43 [2@DESKTOP-8RG8EB9]
+[login] 3:  se connecte depuis l'IP ::1
+2026-04-13 14:37:42 [@DESKTOP-8RG8EB9]
+[login] 3:  se connecte depuis l'IP ::1
+2026-04-15 16:44:46 [@DESKTOP-8RG8EB9]
+[login] 3:  se connecte depuis l'IP ::1
+2026-04-15 16:48:04 [@DESKTOP-8RG8EB9]
+[login] 3: normal se connecte depuis l'IP ::1
+2026-04-15 17:01:55 [@DESKTOP-8RG8EB9]
+[login] 3: glpi se connecte depuis l'IP ::1
+2026-04-15 17:03:05 [@DESKTOP-8RG8EB9]
+[login] 3: post-only se connecte depuis l'IP ::1
+2026-04-15 17:04:14 [@DESKTOP-8RG8EB9]
+[login] 3: glpi se connecte depuis l'IP ::1
+2026-04-15 18:29:08 [@DESKTOP-8RG8EB9]
+[login] 3: glpi se connecte depuis l'IP ::1
+2026-04-15 18:59:36 [@DESKTOP-8RG8EB9]
+[login] 3: Connexion échouée de Douae depuis l'IP ::1
+2026-04-15 18:59:43 [@DESKTOP-8RG8EB9]
+[login] 3: normal se connecte depuis l'IP ::1
+2026-04-16 11:36:07 [@DESKTOP-8RG8EB9]
+[login] 3: glpi se connecte depuis l'IP ::1
+2026-04-23 13:39:03 [@DESKTOP-8RG8EB9]
+[login] 3: glpi se connecte depuis l'IP ::1
+2026-04-23 13:44:39 [2@DESKTOP-8RG8EB9]
+[setup] [Plugin 51] 3: Le plugin « AI Ticket Router » a été installé par glpi (2).
+2026-04-23 13:44:45 [2@DESKTOP-8RG8EB9]
+[setup] [Plugin 52] 3: Le plugin « AI Ticket Router » a été activé par glpi (2).
+2026-04-23 14:45:18 [@DESKTOP-8RG8EB9]
+[setup] [Plugin 58] 3: Plugin aiticketrouter version changed. It has been deactivated as its update process has to be launched.
+2026-04-23 14:46:03 [2@DESKTOP-8RG8EB9]
+[setup] [Plugin 60] 3: Le plugin « AI Ticket Router PRO - Gemini Edition (Validation manuelle) » a été installé par glpi (2).
+2026-04-23 14:46:06 [2@DESKTOP-8RG8EB9]
+[setup] [Plugin 61] 3: Le plugin « AI Ticket Router PRO - Gemini Edition (Validation manuelle) » a été activé par glpi (2).
+2026-04-27 15:40:55 [@DESKTOP-8RG8EB9]
+[setup] [Plugin 65] 3: Plugin aiticketrouter version changed. It has been deactivated as its update process has to be launched.
+2026-04-27 15:40:56 [@DESKTOP-8RG8EB9]
+[login] 3:  se connecte depuis l'IP ::1
+2026-04-27 15:43:15 [2@DESKTOP-8RG8EB9]
+[setup] [Plugin 67] 3: Le plugin « AI Ticket Router » a été installé par glpi (2).
+2026-04-27 15:43:20 [2@DESKTOP-8RG8EB9]
+[setup] [Plugin 68] 3: Le plugin « AI Ticket Router » a été activé par glpi (2).
+2026-04-27 18:37:54 [7@DESKTOP-8RG8EB9]
+[Impersonate] 3: glpi commence la prise d'identité de l'utilisateur tech2
+2026-04-27 18:38:10 [@DESKTOP-8RG8EB9]
+[login] 3: glpi se connecte depuis l'IP ::1
+2026-04-27 20:08:24 [@DESKTOP-8RG8EB9]
+[login] 3:  se connecte depuis l'IP ::1
+2026-05-02 22:18:02 [@DESKTOP-8RG8EB9]
+[login] 3:  se connecte depuis l'IP ::1
+2026-05-08 23:59:48 [@DESKTOP-8RG8EB9]
+[login] 3: glpi se connecte depuis l'IP ::1
+2026-05-09 00:01:00 [2@DESKTOP-8RG8EB9]
+[setup] [Plugin 109] 3: Le plugin « AI Ticket Router » a été désactivé par glpi (2).
+2026-05-09 00:01:04 [2@DESKTOP-8RG8EB9]
+[setup] [Plugin 110] 3: Le plugin « AI Ticket Router » a été activé par glpi (2).
+2026-05-09 22:14:56 [@DESKTOP-8RG8EB9]
+[login] 3:  se connecte depuis l'IP ::1
+2026-05-10 09:11:34 [@DESKTOP-8RG8EB9]
+[login] 3:  se connecte depuis l'IP ::1
+2026-05-13 23:17:23 [@DESKTOP-8RG8EB9]
+[login] 3:  se connecte depuis l'IP ::1

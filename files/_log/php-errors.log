@@ -1,0 +1,1457 @@
+[2026-04-11 14:30:38] glpi.CRITICAL:   *** Uncaught PHP Exception RuntimeException: "Failed to write cache file "./files/_cache/11.0.6-15c577a4-production/templates/9d/9dc1a50f43ed721c8420f2f22d65171a.php"." at FilesystemCache.php line 76
+  Backtrace :
+  ...ndor\twig\twig\src\Cache\FilesystemCache.php:76 
+  .\vendor\twig\twig\src\Environment.php:410         Twig\Cache\FilesystemCache->write()
+  .\vendor\twig\twig\src\Environment.php:370         Twig\Environment->loadTemplate()
+  ...\Glpi\Application\View\TemplateRenderer.php:170 Twig\Environment->load()
+  .\src\Glpi\Controller\AbstractController.php:68    Glpi\Application\View\TemplateRenderer->render()
+  .\src\Glpi\Controller\InstallController.php:144    Glpi\Controller\AbstractController->render()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\InstallController->installRequired()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-04-11 14:30:39] glpi.WARNING:   *** Warning: Undefined array key "url_base" at Html.php line 608
+  Backtrace :
+  .\src\Html.php:608                                 
+  .\src\Glpi\Controller\ErrorController.php:182      Html::getBackUrl()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\ErrorController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  ...http-kernel\EventListener\ErrorListener.php:117 Symfony\Component\HttpKernel\HttpKernel->handle()
+  ...ymfony\event-dispatcher\EventDispatcher.php:260 Symfony\Component\HttpKernel\EventListener\ErrorListener->onKernelException()
+  ...ymfony\event-dispatcher\EventDispatcher.php:220 Symfony\Component\EventDispatcher\EventDispatcher::Symfony\Component\EventDispatcher\{closure}()
+  ...symfony\event-dispatcher\EventDispatcher.php:56 Symfony\Component\EventDispatcher\EventDispatcher->callListeners()
+  .\vendor\symfony\http-kernel\HttpKernel.php:239    Symfony\Component\EventDispatcher\EventDispatcher->dispatch()
+  .\vendor\symfony\http-kernel\HttpKernel.php:91     Symfony\Component\HttpKernel\HttpKernel->handleThrowable()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-04-11 14:31:46] glpi.CRITICAL:   *** Uncaught PHP Exception Symfony\Component\ErrorHandler\Error\FatalError: "Error: Maximum execution time of 120 seconds exceeded" at ImportMapGenerator.php line 274
+  Backtrace :
+  .\src\Glpi\Application\ImportMapGenerator.php:274  
+
+[2026-04-11 14:31:46] glpi.WARNING:   *** Warning: Undefined array key "url_base" at Html.php line 608
+  Backtrace :
+  .\src\Html.php:608                                 
+  .\src\Glpi\Controller\ErrorController.php:182      Html::getBackUrl()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\ErrorController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  ...http-kernel\EventListener\ErrorListener.php:117 Symfony\Component\HttpKernel\HttpKernel->handle()
+  ...ymfony\event-dispatcher\EventDispatcher.php:260 Symfony\Component\HttpKernel\EventListener\ErrorListener->onKernelException()
+  ...ymfony\event-dispatcher\EventDispatcher.php:220 Symfony\Component\EventDispatcher\EventDispatcher::Symfony\Component\EventDispatcher\{closure}()
+  ...symfony\event-dispatcher\EventDispatcher.php:56 Symfony\Component\EventDispatcher\EventDispatcher->callListeners()
+  .\vendor\symfony\http-kernel\HttpKernel.php:239    Symfony\Component\EventDispatcher\EventDispatcher->dispatch()
+  .\vendor\symfony\http-kernel\HttpKernel.php:132    Symfony\Component\HttpKernel\HttpKernel->handleThrowable()
+  ...rnel\EventListener\DebugHandlersListener.php:84 Symfony\Component\HttpKernel\HttpKernel->terminateWithException()
+  ...ndor\symfony\error-handler\ErrorHandler.php:538 Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::Symfony\Component\HttpKernel\EventListener\{closure}()
+  .\src\Glpi\Error\ErrorHandler.php:229              Symfony\Component\ErrorHandler\ErrorHandler->handleException()
+  ...ndor\symfony\error-handler\ErrorHandler.php:634 Glpi\Error\ErrorHandler->handleException()
+  :                                                  Symfony\Component\ErrorHandler\ErrorHandler::handleFatalError()
+
+[2026-04-11 14:31:50] glpi.CRITICAL:   *** Exception thrown when handling an exception (Twig\Error\RuntimeError: An exception has been thrown during the rendering of a template ("Failed to write cache file "./files/_cache/11.0.6-15c577a4-production/templates/a1/a1095312e34a983381d476ca0df3762b.php".") in "error_page.html.twig" at line 33. at error_page.html.twig line 33)
+  Backtrace :
+  .\templates\error_page.html.twig:33                
+  .\vendor\twig\twig\src\Template.php:358            Twig\Template->yield()
+  .\vendor\twig\twig\src\Template.php:373            Twig\Template->display()
+  .\vendor\twig\twig\src\TemplateWrapper.php:51      Twig\Template->render()
+  ...\Glpi\Application\View\TemplateRenderer.php:170 Twig\TemplateWrapper->render()
+  .\src\Glpi\Controller\AbstractController.php:68    Glpi\Application\View\TemplateRenderer->render()
+  .\src\Glpi\Controller\ErrorController.php:177      Glpi\Controller\AbstractController->render()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\ErrorController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  ...http-kernel\EventListener\ErrorListener.php:117 Symfony\Component\HttpKernel\HttpKernel->handle()
+  ...ymfony\event-dispatcher\EventDispatcher.php:260 Symfony\Component\HttpKernel\EventListener\ErrorListener->onKernelException()
+  ...ymfony\event-dispatcher\EventDispatcher.php:220 Symfony\Component\EventDispatcher\EventDispatcher::Symfony\Component\EventDispatcher\{closure}()
+  ...symfony\event-dispatcher\EventDispatcher.php:56 Symfony\Component\EventDispatcher\EventDispatcher->callListeners()
+  .\vendor\symfony\http-kernel\HttpKernel.php:239    Symfony\Component\EventDispatcher\EventDispatcher->dispatch()
+  .\vendor\symfony\http-kernel\HttpKernel.php:91     Symfony\Component\HttpKernel\HttpKernel->handleThrowable()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+  Previous: Failed to write cache file "./files/_cache/11.0.6-15c577a4-production/templates/a1/a1095312e34a983381d476ca0df3762b.php".
+  ...ndor\twig\twig\src\Cache\FilesystemCache.php:76 
+  .\vendor\twig\twig\src\Environment.php:410         Twig\Cache\FilesystemCache->write()
+  .\vendor\twig\twig\src\Environment.php:370         Twig\Environment->loadTemplate()
+  ...\Glpi\Application\View\TemplateRenderer.php:188 Twig\Environment->load()
+  .\src\Html.php:1962                                Glpi\Application\View\TemplateRenderer->display()
+  :                                                  Html::nullHeader()
+  ...Application\View\Extension\PhpExtension.php:105 call_user_func_array()
+  ...ates\ee\eed007bc122b5c8c601eef641b655038.php:45 Glpi\Application\View\Extension\PhpExtension->call()
+  .\vendor\twig\twig\src\Template.php:402            __TwigTemplate_4a6dd9f12bbfc38104b78879a4c9a942->doDisplay()
+  .\vendor\twig\twig\src\Template.php:358            Twig\Template->yield()
+  .\vendor\twig\twig\src\Template.php:373            Twig\Template->display()
+  .\vendor\twig\twig\src\TemplateWrapper.php:51      Twig\Template->render()
+  ...\Glpi\Application\View\TemplateRenderer.php:170 Twig\TemplateWrapper->render()
+  .\src\Glpi\Controller\AbstractController.php:68    Glpi\Application\View\TemplateRenderer->render()
+  .\src\Glpi\Controller\ErrorController.php:177      Glpi\Controller\AbstractController->render()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\ErrorController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  ...http-kernel\EventListener\ErrorListener.php:117 Symfony\Component\HttpKernel\HttpKernel->handle()
+  ...ymfony\event-dispatcher\EventDispatcher.php:260 Symfony\Component\HttpKernel\EventListener\ErrorListener->onKernelException()
+  ...ymfony\event-dispatcher\EventDispatcher.php:220 Symfony\Component\EventDispatcher\EventDispatcher::Symfony\Component\EventDispatcher\{closure}()
+  ...symfony\event-dispatcher\EventDispatcher.php:56 Symfony\Component\EventDispatcher\EventDispatcher->callListeners()
+  .\vendor\symfony\http-kernel\HttpKernel.php:239    Symfony\Component\EventDispatcher\EventDispatcher->dispatch()
+  .\vendor\symfony\http-kernel\HttpKernel.php:91     Symfony\Component\HttpKernel\HttpKernel->handleThrowable()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-04-11 14:31:50] glpi.CRITICAL:   *** Uncaught PHP Exception Twig\Error\RuntimeError: "An exception has been thrown during the rendering of a template ("Failed to write cache file "./files/_cache/11.0.6-15c577a4-production/templates/a1/a1095312e34a983381d476ca0df3762b.php".") in "error_page.html.twig" at line 33." at error_page.html.twig line 33
+  Backtrace :
+  .\templates\error_page.html.twig:33                
+  .\vendor\twig\twig\src\Template.php:358            Twig\Template->yield()
+  .\vendor\twig\twig\src\Template.php:373            Twig\Template->display()
+  .\vendor\twig\twig\src\TemplateWrapper.php:51      Twig\Template->render()
+  ...\Glpi\Application\View\TemplateRenderer.php:170 Twig\TemplateWrapper->render()
+  .\src\Glpi\Controller\AbstractController.php:68    Glpi\Application\View\TemplateRenderer->render()
+  .\src\Glpi\Controller\ErrorController.php:177      Glpi\Controller\AbstractController->render()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\ErrorController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  ...http-kernel\EventListener\ErrorListener.php:117 Symfony\Component\HttpKernel\HttpKernel->handle()
+  ...ymfony\event-dispatcher\EventDispatcher.php:260 Symfony\Component\HttpKernel\EventListener\ErrorListener->onKernelException()
+  ...ymfony\event-dispatcher\EventDispatcher.php:220 Symfony\Component\EventDispatcher\EventDispatcher::Symfony\Component\EventDispatcher\{closure}()
+  ...symfony\event-dispatcher\EventDispatcher.php:56 Symfony\Component\EventDispatcher\EventDispatcher->callListeners()
+  .\vendor\symfony\http-kernel\HttpKernel.php:239    Symfony\Component\EventDispatcher\EventDispatcher->dispatch()
+  .\vendor\symfony\http-kernel\HttpKernel.php:91     Symfony\Component\HttpKernel\HttpKernel->handleThrowable()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+  Previous: Failed to write cache file "./files/_cache/11.0.6-15c577a4-production/templates/a1/a1095312e34a983381d476ca0df3762b.php".
+  ...ndor\twig\twig\src\Cache\FilesystemCache.php:76 
+  .\vendor\twig\twig\src\Environment.php:410         Twig\Cache\FilesystemCache->write()
+  .\vendor\twig\twig\src\Environment.php:370         Twig\Environment->loadTemplate()
+  ...\Glpi\Application\View\TemplateRenderer.php:188 Twig\Environment->load()
+  .\src\Html.php:1962                                Glpi\Application\View\TemplateRenderer->display()
+  :                                                  Html::nullHeader()
+  ...Application\View\Extension\PhpExtension.php:105 call_user_func_array()
+  ...ates\ee\eed007bc122b5c8c601eef641b655038.php:45 Glpi\Application\View\Extension\PhpExtension->call()
+  .\vendor\twig\twig\src\Template.php:402            __TwigTemplate_4a6dd9f12bbfc38104b78879a4c9a942->doDisplay()
+  .\vendor\twig\twig\src\Template.php:358            Twig\Template->yield()
+  .\vendor\twig\twig\src\Template.php:373            Twig\Template->display()
+  .\vendor\twig\twig\src\TemplateWrapper.php:51      Twig\Template->render()
+  ...\Glpi\Application\View\TemplateRenderer.php:170 Twig\TemplateWrapper->render()
+  .\src\Glpi\Controller\AbstractController.php:68    Glpi\Application\View\TemplateRenderer->render()
+  .\src\Glpi\Controller\ErrorController.php:177      Glpi\Controller\AbstractController->render()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\ErrorController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  ...http-kernel\EventListener\ErrorListener.php:117 Symfony\Component\HttpKernel\HttpKernel->handle()
+  ...ymfony\event-dispatcher\EventDispatcher.php:260 Symfony\Component\HttpKernel\EventListener\ErrorListener->onKernelException()
+  ...ymfony\event-dispatcher\EventDispatcher.php:220 Symfony\Component\EventDispatcher\EventDispatcher::Symfony\Component\EventDispatcher\{closure}()
+  ...symfony\event-dispatcher\EventDispatcher.php:56 Symfony\Component\EventDispatcher\EventDispatcher->callListeners()
+  .\vendor\symfony\http-kernel\HttpKernel.php:239    Symfony\Component\EventDispatcher\EventDispatcher->dispatch()
+  .\vendor\symfony\http-kernel\HttpKernel.php:91     Symfony\Component\HttpKernel\HttpKernel->handleThrowable()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+  Previous: Failed to write cache file "./files/_cache/11.0.6-15c577a4-production/templates/9d/9dc1a50f43ed721c8420f2f22d65171a.php".
+  ...ndor\twig\twig\src\Cache\FilesystemCache.php:76 
+  .\vendor\twig\twig\src\Environment.php:410         Twig\Cache\FilesystemCache->write()
+  .\vendor\twig\twig\src\Environment.php:370         Twig\Environment->loadTemplate()
+  ...\Glpi\Application\View\TemplateRenderer.php:170 Twig\Environment->load()
+  .\src\Glpi\Controller\AbstractController.php:68    Glpi\Application\View\TemplateRenderer->render()
+  .\src\Glpi\Controller\InstallController.php:144    Glpi\Controller\AbstractController->render()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\InstallController->installRequired()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-04-11 14:31:50] glpi.WARNING:   *** Warning: Undefined array key "url_base" at Html.php line 608
+  Backtrace :
+  .\src\Html.php:608                                 
+  .\src\Glpi\Controller\ErrorController.php:182      Html::getBackUrl()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\ErrorController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  ...http-kernel\EventListener\ErrorListener.php:117 Symfony\Component\HttpKernel\HttpKernel->handle()
+  ...ymfony\event-dispatcher\EventDispatcher.php:220 Symfony\Component\HttpKernel\EventListener\ErrorListener->onKernelException()
+  ...symfony\event-dispatcher\EventDispatcher.php:56 Symfony\Component\EventDispatcher\EventDispatcher->callListeners()
+  .\vendor\symfony\http-kernel\HttpKernel.php:239    Symfony\Component\EventDispatcher\EventDispatcher->dispatch()
+  .\vendor\symfony\http-kernel\HttpKernel.php:132    Symfony\Component\HttpKernel\HttpKernel->handleThrowable()
+  ...rnel\EventListener\DebugHandlersListener.php:84 Symfony\Component\HttpKernel\HttpKernel->terminateWithException()
+  ...ndor\symfony\error-handler\ErrorHandler.php:538 Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::Symfony\Component\HttpKernel\EventListener\{closure}()
+  .\src\Glpi\Error\ErrorHandler.php:229              Symfony\Component\ErrorHandler\ErrorHandler->handleException()
+  :                                                  Glpi\Error\ErrorHandler->handleException()
+
+[2026-04-11 14:31:50] glpi.CRITICAL:   *** Exception thrown when handling an exception (Twig\Error\RuntimeError: An exception has been thrown during the rendering of a template ("Failed to write cache file "./files/_cache/11.0.6-15c577a4-production/templates/e7/e74312bdef08e764a602677648b4e054.php".") in "error_page.html.twig" at line 35. at error_page.html.twig line 35)
+  Backtrace :
+  .\templates\error_page.html.twig:35                
+  .\vendor\twig\twig\src\Template.php:358            Twig\Template->yield()
+  .\vendor\twig\twig\src\Template.php:373            Twig\Template->display()
+  .\vendor\twig\twig\src\TemplateWrapper.php:51      Twig\Template->render()
+  ...\Glpi\Application\View\TemplateRenderer.php:170 Twig\TemplateWrapper->render()
+  .\src\Glpi\Controller\AbstractController.php:68    Glpi\Application\View\TemplateRenderer->render()
+  .\src\Glpi\Controller\ErrorController.php:177      Glpi\Controller\AbstractController->render()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\ErrorController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  ...http-kernel\EventListener\ErrorListener.php:117 Symfony\Component\HttpKernel\HttpKernel->handle()
+  ...ymfony\event-dispatcher\EventDispatcher.php:220 Symfony\Component\HttpKernel\EventListener\ErrorListener->onKernelException()
+  ...symfony\event-dispatcher\EventDispatcher.php:56 Symfony\Component\EventDispatcher\EventDispatcher->callListeners()
+  .\vendor\symfony\http-kernel\HttpKernel.php:239    Symfony\Component\EventDispatcher\EventDispatcher->dispatch()
+  .\vendor\symfony\http-kernel\HttpKernel.php:132    Symfony\Component\HttpKernel\HttpKernel->handleThrowable()
+  ...rnel\EventListener\DebugHandlersListener.php:84 Symfony\Component\HttpKernel\HttpKernel->terminateWithException()
+  ...ndor\symfony\error-handler\ErrorHandler.php:538 Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::Symfony\Component\HttpKernel\EventListener\{closure}()
+  .\src\Glpi\Error\ErrorHandler.php:229              Symfony\Component\ErrorHandler\ErrorHandler->handleException()
+  :                                                  Glpi\Error\ErrorHandler->handleException()
+  Previous: Failed to write cache file "./files/_cache/11.0.6-15c577a4-production/templates/e7/e74312bdef08e764a602677648b4e054.php".
+  ...ndor\twig\twig\src\Cache\FilesystemCache.php:76 
+  .\vendor\twig\twig\src\Environment.php:410         Twig\Cache\FilesystemCache->write()
+  .\vendor\twig\twig\src\Environment.php:370         Twig\Environment->loadTemplate()
+  .\vendor\twig\twig\src\Environment.php:495         Twig\Environment->load()
+  ...\twig\twig\src\Extension\CoreExtension.php:1513 Twig\Environment->resolveTemplate()
+  ...ates\ee\eed007bc122b5c8c601eef641b655038.php:50 Twig\Extension\CoreExtension::include()
+  .\vendor\twig\twig\src\Template.php:402            __TwigTemplate_4a6dd9f12bbfc38104b78879a4c9a942->doDisplay()
+  .\vendor\twig\twig\src\Template.php:358            Twig\Template->yield()
+  .\vendor\twig\twig\src\Template.php:373            Twig\Template->display()
+  .\vendor\twig\twig\src\TemplateWrapper.php:51      Twig\Template->render()
+  ...\Glpi\Application\View\TemplateRenderer.php:170 Twig\TemplateWrapper->render()
+  .\src\Glpi\Controller\AbstractController.php:68    Glpi\Application\View\TemplateRenderer->render()
+  .\src\Glpi\Controller\ErrorController.php:177      Glpi\Controller\AbstractController->render()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\ErrorController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  ...http-kernel\EventListener\ErrorListener.php:117 Symfony\Component\HttpKernel\HttpKernel->handle()
+  ...ymfony\event-dispatcher\EventDispatcher.php:220 Symfony\Component\HttpKernel\EventListener\ErrorListener->onKernelException()
+  ...symfony\event-dispatcher\EventDispatcher.php:56 Symfony\Component\EventDispatcher\EventDispatcher->callListeners()
+  .\vendor\symfony\http-kernel\HttpKernel.php:239    Symfony\Component\EventDispatcher\EventDispatcher->dispatch()
+  .\vendor\symfony\http-kernel\HttpKernel.php:132    Symfony\Component\HttpKernel\HttpKernel->handleThrowable()
+  ...rnel\EventListener\DebugHandlersListener.php:84 Symfony\Component\HttpKernel\HttpKernel->terminateWithException()
+  ...ndor\symfony\error-handler\ErrorHandler.php:538 Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::Symfony\Component\HttpKernel\EventListener\{closure}()
+  .\src\Glpi\Error\ErrorHandler.php:229              Symfony\Component\ErrorHandler\ErrorHandler->handleException()
+  :                                                  Glpi\Error\ErrorHandler->handleException()
+
+[2026-04-11 16:24:25] glpi.WARNING:   *** Test logger
+[2026-04-11 16:38:01] glpi.WARNING:   *** Test logger
+[2026-04-11 16:38:12] glpi.WARNING:   *** Warning: mysqli::__construct(): php_network_getaddresses: getaddrinfo for local failed: H�te inconnu.  at install.php line 181
+  Backtrace :
+  .\install\install.php:181                          
+  .\install\install.php:549                          step3()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-04-11 16:38:12] glpi.WARNING:   *** Warning: mysqli::__construct(): (HY000/2002): php_network_getaddresses: getaddrinfo for local failed: H�te inconnu.  at install.php line 181
+  Backtrace :
+  .\install\install.php:181                          
+  .\install\install.php:549                          step3()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-04-11 16:39:14] glpi.WARNING:   *** Test logger
+[2026-04-11 16:41:00] glpi.CRITICAL:   *** Uncaught PHP Exception RuntimeException: "Unable to generate keys: error:80000003:system library::No such process" at Server.php line 277
+  Backtrace :
+  .\src\Glpi\OAuth\Server.php:277                    
+  .\src\Glpi\OAuth\Server.php:254                    Glpi\OAuth\Server::doGenerateKeys()
+  .\src\Toolbox.php:2292                             Glpi\OAuth\Server::generateKeys()
+  .\src\Glpi\Controller\InstallController.php:87     Toolbox::createSchema()
+  ...ts\AsyncOperationProgressControllerTrait.php:83 Glpi\Controller\InstallController->Glpi\Controller\{closure}()
+  .\vendor\symfony\http-kernel\HttpKernel.php:101    Glpi\Controller\InstallController->Glpi\Controller\Traits\{closure}()
+  ...ymfony\http-foundation\StreamedResponse.php:106 Symfony\Component\HttpKernel\HttpKernel::Symfony\Component\HttpKernel\{closure}()
+  .\vendor\symfony\http-foundation\Response.php:423  Symfony\Component\HttpFoundation\StreamedResponse->sendContent()
+  .\src\Glpi\Kernel\Kernel.php:295                   Symfony\Component\HttpFoundation\Response->send()
+  .\public\index.php:73                              Glpi\Kernel\Kernel->sendResponse()
+  Previous: error:80000003:system library::No such process
+  ...hine\safe\lib\Exceptions\OpensslException.php:9 
+  ...dingmachine\safe\generated\8.3\openssl.php:1086 Safe\Exceptions\OpensslException::createFromPhpError()
+  .\src\Glpi\OAuth\Server.php:275                    Safe\openssl_pkey_new()
+  .\src\Glpi\OAuth\Server.php:254                    Glpi\OAuth\Server::doGenerateKeys()
+  .\src\Toolbox.php:2292                             Glpi\OAuth\Server::generateKeys()
+  .\src\Glpi\Controller\InstallController.php:87     Toolbox::createSchema()
+  ...ts\AsyncOperationProgressControllerTrait.php:83 Glpi\Controller\InstallController->Glpi\Controller\{closure}()
+  .\vendor\symfony\http-kernel\HttpKernel.php:101    Glpi\Controller\InstallController->Glpi\Controller\Traits\{closure}()
+  ...ymfony\http-foundation\StreamedResponse.php:106 Symfony\Component\HttpKernel\HttpKernel::Symfony\Component\HttpKernel\{closure}()
+  .\vendor\symfony\http-foundation\Response.php:423  Symfony\Component\HttpFoundation\StreamedResponse->sendContent()
+  .\src\Glpi\Kernel\Kernel.php:295                   Symfony\Component\HttpFoundation\Response->send()
+  .\public\index.php:73                              Glpi\Kernel\Kernel->sendResponse()
+
+[2026-04-11 16:41:40] glpi.WARNING:   *** Test logger
+[2026-04-11 16:42:48] glpi.CRITICAL:   *** Uncaught PHP Exception RuntimeException: "Unable to generate keys: error:80000003:system library::No such process" at Server.php line 277
+  Backtrace :
+  .\src\Glpi\OAuth\Server.php:277                    
+  .\src\Glpi\OAuth\Server.php:254                    Glpi\OAuth\Server::doGenerateKeys()
+  .\src\Toolbox.php:2292                             Glpi\OAuth\Server::generateKeys()
+  .\src\Glpi\Controller\InstallController.php:87     Toolbox::createSchema()
+  ...ts\AsyncOperationProgressControllerTrait.php:83 Glpi\Controller\InstallController->Glpi\Controller\{closure}()
+  .\vendor\symfony\http-kernel\HttpKernel.php:101    Glpi\Controller\InstallController->Glpi\Controller\Traits\{closure}()
+  ...ymfony\http-foundation\StreamedResponse.php:106 Symfony\Component\HttpKernel\HttpKernel::Symfony\Component\HttpKernel\{closure}()
+  .\vendor\symfony\http-foundation\Response.php:423  Symfony\Component\HttpFoundation\StreamedResponse->sendContent()
+  .\src\Glpi\Kernel\Kernel.php:295                   Symfony\Component\HttpFoundation\Response->send()
+  .\public\index.php:73                              Glpi\Kernel\Kernel->sendResponse()
+  Previous: error:80000003:system library::No such process
+  ...hine\safe\lib\Exceptions\OpensslException.php:9 
+  ...dingmachine\safe\generated\8.3\openssl.php:1086 Safe\Exceptions\OpensslException::createFromPhpError()
+  .\src\Glpi\OAuth\Server.php:275                    Safe\openssl_pkey_new()
+  .\src\Glpi\OAuth\Server.php:254                    Glpi\OAuth\Server::doGenerateKeys()
+  .\src\Toolbox.php:2292                             Glpi\OAuth\Server::generateKeys()
+  .\src\Glpi\Controller\InstallController.php:87     Toolbox::createSchema()
+  ...ts\AsyncOperationProgressControllerTrait.php:83 Glpi\Controller\InstallController->Glpi\Controller\{closure}()
+  .\vendor\symfony\http-kernel\HttpKernel.php:101    Glpi\Controller\InstallController->Glpi\Controller\Traits\{closure}()
+  ...ymfony\http-foundation\StreamedResponse.php:106 Symfony\Component\HttpKernel\HttpKernel::Symfony\Component\HttpKernel\{closure}()
+  .\vendor\symfony\http-foundation\Response.php:423  Symfony\Component\HttpFoundation\StreamedResponse->sendContent()
+  .\src\Glpi\Kernel\Kernel.php:295                   Symfony\Component\HttpFoundation\Response->send()
+  .\public\index.php:73                              Glpi\Kernel\Kernel->sendResponse()
+
+[2026-04-11 17:14:01] glpi.CRITICAL:   *** Uncaught PHP Exception RuntimeException: "Unable to generate keys: error:10000080:BIO routines::no such file" at Server.php line 277
+  Backtrace :
+  .\src\Glpi\OAuth\Server.php:277                    
+  .\src\Glpi\OAuth\Server.php:254                    Glpi\OAuth\Server::doGenerateKeys()
+  .\src\Toolbox.php:2292                             Glpi\OAuth\Server::generateKeys()
+  .\src\Glpi\Controller\InstallController.php:87     Toolbox::createSchema()
+  ...ts\AsyncOperationProgressControllerTrait.php:83 Glpi\Controller\InstallController->Glpi\Controller\{closure}()
+  .\vendor\symfony\http-kernel\HttpKernel.php:101    Glpi\Controller\InstallController->Glpi\Controller\Traits\{closure}()
+  ...ymfony\http-foundation\StreamedResponse.php:106 Symfony\Component\HttpKernel\HttpKernel::Symfony\Component\HttpKernel\{closure}()
+  .\vendor\symfony\http-foundation\Response.php:423  Symfony\Component\HttpFoundation\StreamedResponse->sendContent()
+  .\src\Glpi\Kernel\Kernel.php:295                   Symfony\Component\HttpFoundation\Response->send()
+  .\public\index.php:73                              Glpi\Kernel\Kernel->sendResponse()
+  Previous: error:10000080:BIO routines::no such file
+  ...hine\safe\lib\Exceptions\OpensslException.php:9 
+  ...dingmachine\safe\generated\8.3\openssl.php:1086 Safe\Exceptions\OpensslException::createFromPhpError()
+  .\src\Glpi\OAuth\Server.php:275                    Safe\openssl_pkey_new()
+  .\src\Glpi\OAuth\Server.php:254                    Glpi\OAuth\Server::doGenerateKeys()
+  .\src\Toolbox.php:2292                             Glpi\OAuth\Server::generateKeys()
+  .\src\Glpi\Controller\InstallController.php:87     Toolbox::createSchema()
+  ...ts\AsyncOperationProgressControllerTrait.php:83 Glpi\Controller\InstallController->Glpi\Controller\{closure}()
+  .\vendor\symfony\http-kernel\HttpKernel.php:101    Glpi\Controller\InstallController->Glpi\Controller\Traits\{closure}()
+  ...ymfony\http-foundation\StreamedResponse.php:106 Symfony\Component\HttpKernel\HttpKernel::Symfony\Component\HttpKernel\{closure}()
+  .\vendor\symfony\http-foundation\Response.php:423  Symfony\Component\HttpFoundation\StreamedResponse->sendContent()
+  .\src\Glpi\Kernel\Kernel.php:295                   Symfony\Component\HttpFoundation\Response->send()
+  .\public\index.php:73                              Glpi\Kernel\Kernel->sendResponse()
+
+[2026-04-11 17:21:03] glpi.CRITICAL:   *** Uncaught PHP Exception RuntimeException: "Unable to generate keys: error:10000080:BIO routines::no such file" at Server.php line 277
+  Backtrace :
+  .\src\Glpi\OAuth\Server.php:277                    
+  .\src\Glpi\OAuth\Server.php:254                    Glpi\OAuth\Server::doGenerateKeys()
+  .\src\Toolbox.php:2292                             Glpi\OAuth\Server::generateKeys()
+  .\src\Glpi\Controller\InstallController.php:87     Toolbox::createSchema()
+  ...ts\AsyncOperationProgressControllerTrait.php:83 Glpi\Controller\InstallController->Glpi\Controller\{closure}()
+  .\vendor\symfony\http-kernel\HttpKernel.php:101    Glpi\Controller\InstallController->Glpi\Controller\Traits\{closure}()
+  ...ymfony\http-foundation\StreamedResponse.php:106 Symfony\Component\HttpKernel\HttpKernel::Symfony\Component\HttpKernel\{closure}()
+  .\vendor\symfony\http-foundation\Response.php:423  Symfony\Component\HttpFoundation\StreamedResponse->sendContent()
+  .\src\Glpi\Kernel\Kernel.php:295                   Symfony\Component\HttpFoundation\Response->send()
+  .\public\index.php:73                              Glpi\Kernel\Kernel->sendResponse()
+  Previous: error:10000080:BIO routines::no such file
+  ...hine\safe\lib\Exceptions\OpensslException.php:9 
+  ...dingmachine\safe\generated\8.3\openssl.php:1086 Safe\Exceptions\OpensslException::createFromPhpError()
+  .\src\Glpi\OAuth\Server.php:275                    Safe\openssl_pkey_new()
+  .\src\Glpi\OAuth\Server.php:254                    Glpi\OAuth\Server::doGenerateKeys()
+  .\src\Toolbox.php:2292                             Glpi\OAuth\Server::generateKeys()
+  .\src\Glpi\Controller\InstallController.php:87     Toolbox::createSchema()
+  ...ts\AsyncOperationProgressControllerTrait.php:83 Glpi\Controller\InstallController->Glpi\Controller\{closure}()
+  .\vendor\symfony\http-kernel\HttpKernel.php:101    Glpi\Controller\InstallController->Glpi\Controller\Traits\{closure}()
+  ...ymfony\http-foundation\StreamedResponse.php:106 Symfony\Component\HttpKernel\HttpKernel::Symfony\Component\HttpKernel\{closure}()
+  .\vendor\symfony\http-foundation\Response.php:423  Symfony\Component\HttpFoundation\StreamedResponse->sendContent()
+  .\src\Glpi\Kernel\Kernel.php:295                   Symfony\Component\HttpFoundation\Response->send()
+  .\public\index.php:73                              Glpi\Kernel\Kernel->sendResponse()
+
+[2026-04-11 17:22:09] glpi.WARNING:   *** Test logger
+[2026-04-11 17:23:16] glpi.CRITICAL:   *** Uncaught PHP Exception RuntimeException: "Unable to generate keys: error:80000003:system library::No such process" at Server.php line 277
+  Backtrace :
+  .\src\Glpi\OAuth\Server.php:277                    
+  .\src\Glpi\OAuth\Server.php:254                    Glpi\OAuth\Server::doGenerateKeys()
+  .\src\Toolbox.php:2292                             Glpi\OAuth\Server::generateKeys()
+  .\src\Glpi\Controller\InstallController.php:87     Toolbox::createSchema()
+  ...ts\AsyncOperationProgressControllerTrait.php:83 Glpi\Controller\InstallController->Glpi\Controller\{closure}()
+  .\vendor\symfony\http-kernel\HttpKernel.php:101    Glpi\Controller\InstallController->Glpi\Controller\Traits\{closure}()
+  ...ymfony\http-foundation\StreamedResponse.php:106 Symfony\Component\HttpKernel\HttpKernel::Symfony\Component\HttpKernel\{closure}()
+  .\vendor\symfony\http-foundation\Response.php:423  Symfony\Component\HttpFoundation\StreamedResponse->sendContent()
+  .\src\Glpi\Kernel\Kernel.php:295                   Symfony\Component\HttpFoundation\Response->send()
+  .\public\index.php:73                              Glpi\Kernel\Kernel->sendResponse()
+  Previous: error:80000003:system library::No such process
+  ...hine\safe\lib\Exceptions\OpensslException.php:9 
+  ...dingmachine\safe\generated\8.3\openssl.php:1086 Safe\Exceptions\OpensslException::createFromPhpError()
+  .\src\Glpi\OAuth\Server.php:275                    Safe\openssl_pkey_new()
+  .\src\Glpi\OAuth\Server.php:254                    Glpi\OAuth\Server::doGenerateKeys()
+  .\src\Toolbox.php:2292                             Glpi\OAuth\Server::generateKeys()
+  .\src\Glpi\Controller\InstallController.php:87     Toolbox::createSchema()
+  ...ts\AsyncOperationProgressControllerTrait.php:83 Glpi\Controller\InstallController->Glpi\Controller\{closure}()
+  .\vendor\symfony\http-kernel\HttpKernel.php:101    Glpi\Controller\InstallController->Glpi\Controller\Traits\{closure}()
+  ...ymfony\http-foundation\StreamedResponse.php:106 Symfony\Component\HttpKernel\HttpKernel::Symfony\Component\HttpKernel\{closure}()
+  .\vendor\symfony\http-foundation\Response.php:423  Symfony\Component\HttpFoundation\StreamedResponse->sendContent()
+  .\src\Glpi\Kernel\Kernel.php:295                   Symfony\Component\HttpFoundation\Response->send()
+  .\public\index.php:73                              Glpi\Kernel\Kernel->sendResponse()
+
+[2026-04-12 13:15:57] glpi.WARNING:   *** Test logger
+[2026-04-12 13:17:26] glpi.CRITICAL:   *** Uncaught PHP Exception RuntimeException: "Unable to generate keys: error:80000003:system library::No such process" at Server.php line 277
+  Backtrace :
+  .\src\Glpi\OAuth\Server.php:277                    
+  .\src\Glpi\OAuth\Server.php:254                    Glpi\OAuth\Server::doGenerateKeys()
+  .\src\Toolbox.php:2292                             Glpi\OAuth\Server::generateKeys()
+  .\src\Glpi\Controller\InstallController.php:87     Toolbox::createSchema()
+  ...ts\AsyncOperationProgressControllerTrait.php:83 Glpi\Controller\InstallController->Glpi\Controller\{closure}()
+  .\vendor\symfony\http-kernel\HttpKernel.php:101    Glpi\Controller\InstallController->Glpi\Controller\Traits\{closure}()
+  ...ymfony\http-foundation\StreamedResponse.php:106 Symfony\Component\HttpKernel\HttpKernel::Symfony\Component\HttpKernel\{closure}()
+  .\vendor\symfony\http-foundation\Response.php:423  Symfony\Component\HttpFoundation\StreamedResponse->sendContent()
+  .\src\Glpi\Kernel\Kernel.php:295                   Symfony\Component\HttpFoundation\Response->send()
+  .\public\index.php:73                              Glpi\Kernel\Kernel->sendResponse()
+  Previous: error:80000003:system library::No such process
+  ...hine\safe\lib\Exceptions\OpensslException.php:9 
+  ...dingmachine\safe\generated\8.3\openssl.php:1086 Safe\Exceptions\OpensslException::createFromPhpError()
+  .\src\Glpi\OAuth\Server.php:275                    Safe\openssl_pkey_new()
+  .\src\Glpi\OAuth\Server.php:254                    Glpi\OAuth\Server::doGenerateKeys()
+  .\src\Toolbox.php:2292                             Glpi\OAuth\Server::generateKeys()
+  .\src\Glpi\Controller\InstallController.php:87     Toolbox::createSchema()
+  ...ts\AsyncOperationProgressControllerTrait.php:83 Glpi\Controller\InstallController->Glpi\Controller\{closure}()
+  .\vendor\symfony\http-kernel\HttpKernel.php:101    Glpi\Controller\InstallController->Glpi\Controller\Traits\{closure}()
+  ...ymfony\http-foundation\StreamedResponse.php:106 Symfony\Component\HttpKernel\HttpKernel::Symfony\Component\HttpKernel\{closure}()
+  .\vendor\symfony\http-foundation\Response.php:423  Symfony\Component\HttpFoundation\StreamedResponse->sendContent()
+  .\src\Glpi\Kernel\Kernel.php:295                   Symfony\Component\HttpFoundation\Response->send()
+  .\public\index.php:73                              Glpi\Kernel\Kernel->sendResponse()
+
+[2026-04-12 14:06:04] glpi.CRITICAL:   *** Uncaught PHP Exception RuntimeException: "Unable to generate keys: error:80000003:system library::No such process" at Server.php line 277
+  Backtrace :
+  .\src\Glpi\OAuth\Server.php:277                    
+  .\src\Glpi\OAuth\Server.php:254                    Glpi\OAuth\Server::doGenerateKeys()
+  .\src\Toolbox.php:2292                             Glpi\OAuth\Server::generateKeys()
+  .\src\Glpi\Controller\InstallController.php:87     Toolbox::createSchema()
+  ...ts\AsyncOperationProgressControllerTrait.php:83 Glpi\Controller\InstallController->Glpi\Controller\{closure}()
+  .\vendor\symfony\http-kernel\HttpKernel.php:101    Glpi\Controller\InstallController->Glpi\Controller\Traits\{closure}()
+  ...ymfony\http-foundation\StreamedResponse.php:106 Symfony\Component\HttpKernel\HttpKernel::Symfony\Component\HttpKernel\{closure}()
+  .\vendor\symfony\http-foundation\Response.php:423  Symfony\Component\HttpFoundation\StreamedResponse->sendContent()
+  .\src\Glpi\Kernel\Kernel.php:295                   Symfony\Component\HttpFoundation\Response->send()
+  .\public\index.php:73                              Glpi\Kernel\Kernel->sendResponse()
+  Previous: error:80000003:system library::No such process
+  ...hine\safe\lib\Exceptions\OpensslException.php:9 
+  ...dingmachine\safe\generated\8.3\openssl.php:1086 Safe\Exceptions\OpensslException::createFromPhpError()
+  .\src\Glpi\OAuth\Server.php:275                    Safe\openssl_pkey_new()
+  .\src\Glpi\OAuth\Server.php:254                    Glpi\OAuth\Server::doGenerateKeys()
+  .\src\Toolbox.php:2292                             Glpi\OAuth\Server::generateKeys()
+  .\src\Glpi\Controller\InstallController.php:87     Toolbox::createSchema()
+  ...ts\AsyncOperationProgressControllerTrait.php:83 Glpi\Controller\InstallController->Glpi\Controller\{closure}()
+  .\vendor\symfony\http-kernel\HttpKernel.php:101    Glpi\Controller\InstallController->Glpi\Controller\Traits\{closure}()
+  ...ymfony\http-foundation\StreamedResponse.php:106 Symfony\Component\HttpKernel\HttpKernel::Symfony\Component\HttpKernel\{closure}()
+  .\vendor\symfony\http-foundation\Response.php:423  Symfony\Component\HttpFoundation\StreamedResponse->sendContent()
+  .\src\Glpi\Kernel\Kernel.php:295                   Symfony\Component\HttpFoundation\Response->send()
+  .\public\index.php:73                              Glpi\Kernel\Kernel->sendResponse()
+
+[2026-04-12 14:13:47] glpi.CRITICAL:   *** Uncaught PHP Exception RuntimeException: "Unable to generate keys: error:80000003:system library::No such process" at Server.php line 277
+  Backtrace :
+  .\src\Glpi\OAuth\Server.php:277                    
+  .\src\Glpi\OAuth\Server.php:254                    Glpi\OAuth\Server::doGenerateKeys()
+  .\src\Toolbox.php:2292                             Glpi\OAuth\Server::generateKeys()
+  .\src\Glpi\Controller\InstallController.php:87     Toolbox::createSchema()
+  ...ts\AsyncOperationProgressControllerTrait.php:83 Glpi\Controller\InstallController->Glpi\Controller\{closure}()
+  .\vendor\symfony\http-kernel\HttpKernel.php:101    Glpi\Controller\InstallController->Glpi\Controller\Traits\{closure}()
+  ...ymfony\http-foundation\StreamedResponse.php:106 Symfony\Component\HttpKernel\HttpKernel::Symfony\Component\HttpKernel\{closure}()
+  .\vendor\symfony\http-foundation\Response.php:423  Symfony\Component\HttpFoundation\StreamedResponse->sendContent()
+  .\src\Glpi\Kernel\Kernel.php:295                   Symfony\Component\HttpFoundation\Response->send()
+  .\public\index.php:73                              Glpi\Kernel\Kernel->sendResponse()
+  Previous: error:80000003:system library::No such process
+  ...hine\safe\lib\Exceptions\OpensslException.php:9 
+  ...dingmachine\safe\generated\8.3\openssl.php:1086 Safe\Exceptions\OpensslException::createFromPhpError()
+  .\src\Glpi\OAuth\Server.php:275                    Safe\openssl_pkey_new()
+  .\src\Glpi\OAuth\Server.php:254                    Glpi\OAuth\Server::doGenerateKeys()
+  .\src\Toolbox.php:2292                             Glpi\OAuth\Server::generateKeys()
+  .\src\Glpi\Controller\InstallController.php:87     Toolbox::createSchema()
+  ...ts\AsyncOperationProgressControllerTrait.php:83 Glpi\Controller\InstallController->Glpi\Controller\{closure}()
+  .\vendor\symfony\http-kernel\HttpKernel.php:101    Glpi\Controller\InstallController->Glpi\Controller\Traits\{closure}()
+  ...ymfony\http-foundation\StreamedResponse.php:106 Symfony\Component\HttpKernel\HttpKernel::Symfony\Component\HttpKernel\{closure}()
+  .\vendor\symfony\http-foundation\Response.php:423  Symfony\Component\HttpFoundation\StreamedResponse->sendContent()
+  .\src\Glpi\Kernel\Kernel.php:295                   Symfony\Component\HttpFoundation\Response->send()
+  .\public\index.php:73                              Glpi\Kernel\Kernel->sendResponse()
+
+[2026-04-12 15:39:11] glpi.WARNING:   *** Test logger
+[2026-04-12 15:41:46] glpi.WARNING:   *** Test logger
+[2026-04-12 15:41:58] glpi.WARNING:   *** Test logger
+[2026-04-12 15:42:40] glpi.WARNING:   *** Test logger
+[2026-04-16 11:52:11] glpi.WARNING:   *** Test logger
+[2026-04-16 11:54:10] glpi.CRITICAL:   *** Uncaught PHP Exception Symfony\Component\ErrorHandler\Error\FatalError: "Error: Maximum execution time of 120 seconds exceeded" at SourceCodeIntegrityChecker.php line 171
+  Backtrace :
+  ...m\Diagnostic\SourceCodeIntegrityChecker.php:171 
+
+[2026-04-16 11:56:41] glpi.CRITICAL:   *** Uncaught Error: Call to undefined function mysqli_report()
+  Backtrace :
+  .\src\DBmysql.php:266                              
+  .\src\DBmysql.php:249                              DBmysql->connect()
+  .\src\DBConnection.php:421                         DBmysql->__construct()
+  .\src\DBConnection.php:514                         DBConnection::switchToMaster()
+  ...\PostBootListener\InitializeDbConnection.php:62 DBConnection::establishDBConnection()
+  ...ymfony\event-dispatcher\EventDispatcher.php:260 Glpi\Kernel\Listener\PostBootListener\InitializeDbConnection->onPostBoot()
+  ...ymfony\event-dispatcher\EventDispatcher.php:220 Symfony\Component\EventDispatcher\EventDispatcher::{closure:Symfony\Component\EventDispatcher\EventDispatcher::optimizeListeners():255}()
+  ...symfony\event-dispatcher\EventDispatcher.php:56 Symfony\Component\EventDispatcher\EventDispatcher->callListeners()
+  .\src\Glpi\Kernel\Kernel.php:149                   Symfony\Component\EventDispatcher\EventDispatcher->dispatch()
+  .\src\Glpi\Console\Application.php:121             Glpi\Kernel\Kernel->boot()
+  .\bin\console:123                                  Glpi\Console\Application->__construct()
+
+[2026-04-16 12:17:58] glpi.CRITICAL:   *** Uncaught Error: Call to undefined function mysqli_report()
+  Backtrace :
+  .\src\DBmysql.php:266                              
+  .\src\DBmysql.php:249                              DBmysql->connect()
+  .\src\DBConnection.php:421                         DBmysql->__construct()
+  .\src\DBConnection.php:514                         DBConnection::switchToMaster()
+  ...\PostBootListener\InitializeDbConnection.php:62 DBConnection::establishDBConnection()
+  ...ymfony\event-dispatcher\EventDispatcher.php:260 Glpi\Kernel\Listener\PostBootListener\InitializeDbConnection->onPostBoot()
+  ...ymfony\event-dispatcher\EventDispatcher.php:220 Symfony\Component\EventDispatcher\EventDispatcher::{closure:Symfony\Component\EventDispatcher\EventDispatcher::optimizeListeners():255}()
+  ...symfony\event-dispatcher\EventDispatcher.php:56 Symfony\Component\EventDispatcher\EventDispatcher->callListeners()
+  .\src\Glpi\Kernel\Kernel.php:149                   Symfony\Component\EventDispatcher\EventDispatcher->dispatch()
+  .\src\Glpi\Console\Application.php:121             Glpi\Kernel\Kernel->boot()
+  .\bin\console:123                                  Glpi\Console\Application->__construct()
+
+[2026-04-16 12:51:50] glpi.WARNING:   *** User Warning: Unexpected output detected in `./front/log/export.php`. at LegacyFileLoadController.php line 94
+  Backtrace :
+  ...Glpi\Controller\LegacyFileLoadController.php:94 
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-04-16 13:17:14] glpi.ERROR:   *** SSL certificate problem: unable to get local issuer certificate
+  Backtrace :
+  ...achine\safe\lib\Exceptions\CurlException.php:12 
+  ...thecodingmachine\safe\generated\8.3\curl.php:67 Safe\Exceptions\CurlException::createFromPhpError()
+  .\src\Toolbox.php:1501                             Safe\curl_exec()
+  .\src\Toolbox.php:1387                             Toolbox::doCallCurl()
+  .\src\GLPINetwork.php:303                          Toolbox::callCurl()
+  .\src\Glpi\Marketplace\View.php:171                GLPINetwork::isServicesAvailable()
+  .\src\Glpi\Marketplace\View.php:231                Glpi\Marketplace\View::checkRegistrationStatus()
+  .\src\Glpi\Marketplace\View.php:141                Glpi\Marketplace\View::installed()
+  .\src\CommonGLPI.php:738                           Glpi\Marketplace\View::displayTabContentForItem()
+  .\ajax\common.tabs.php:108                         CommonGLPI::displayStandardTab()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-04-16 13:17:19] glpi.ERROR:   *** SSL certificate problem: unable to get local issuer certificate
+  Backtrace :
+  ...achine\safe\lib\Exceptions\CurlException.php:12 
+  ...thecodingmachine\safe\generated\8.3\curl.php:67 Safe\Exceptions\CurlException::createFromPhpError()
+  .\src\Toolbox.php:1501                             Safe\curl_exec()
+  .\src\Toolbox.php:1387                             Toolbox::doCallCurl()
+  .\src\GLPINetwork.php:303                          Toolbox::callCurl()
+  .\src\Glpi\Marketplace\View.php:171                GLPINetwork::isServicesAvailable()
+  .\src\Glpi\Marketplace\View.php:296                Glpi\Marketplace\View::checkRegistrationStatus()
+  .\src\Glpi\Marketplace\View.php:145                Glpi\Marketplace\View::discover()
+  .\src\CommonGLPI.php:738                           Glpi\Marketplace\View::displayTabContentForItem()
+  .\ajax\common.tabs.php:108                         CommonGLPI::displayStandardTab()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-04-16 13:17:36] glpi.ERROR:   *** SSL certificate problem: unable to get local issuer certificate
+  Backtrace :
+  ...achine\safe\lib\Exceptions\CurlException.php:12 
+  ...thecodingmachine\safe\generated\8.3\curl.php:67 Safe\Exceptions\CurlException::createFromPhpError()
+  .\src\Toolbox.php:1501                             Safe\curl_exec()
+  .\src\Toolbox.php:1387                             Toolbox::doCallCurl()
+  .\src\GLPINetwork.php:328                          Toolbox::callCurl()
+  .\src\Glpi\Marketplace\Controller.php:496          GLPINetwork::getOffers()
+  .\src\Glpi\Marketplace\View.php:614                Glpi\Marketplace\Controller->getRequiredOffers()
+  .\ajax\marketplace.php:74                          Glpi\Marketplace\View::getButtons()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-04-16 13:17:36] glpi.WARNING:   *** User Warning: Unable to fetch offers information.
+Error message:Échec de connexion. Si vous utilisez un proxy, merci de le configurer. (SSL certificate problem: unable to get local issuer certificate)
+Response:
+ at GLPINetwork.php line 344
+  Backtrace :
+  .\src\GLPINetwork.php:344                          
+  .\src\Glpi\Marketplace\Controller.php:496          GLPINetwork::getOffers()
+  .\src\Glpi\Marketplace\View.php:614                Glpi\Marketplace\Controller->getRequiredOffers()
+  .\ajax\marketplace.php:74                          Glpi\Marketplace\View::getButtons()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-04-16 13:17:51] glpi.ERROR:   *** SSL certificate problem: unable to get local issuer certificate
+  Backtrace :
+  ...achine\safe\lib\Exceptions\CurlException.php:12 
+  ...thecodingmachine\safe\generated\8.3\curl.php:67 Safe\Exceptions\CurlException::createFromPhpError()
+  .\src\Toolbox.php:1501                             Safe\curl_exec()
+  .\src\Toolbox.php:1387                             Toolbox::doCallCurl()
+  .\src\GLPINetwork.php:303                          Toolbox::callCurl()
+  .\src\Glpi\Marketplace\View.php:171                GLPINetwork::isServicesAvailable()
+  .\src\Glpi\Marketplace\View.php:231                Glpi\Marketplace\View::checkRegistrationStatus()
+  .\src\Glpi\Marketplace\View.php:141                Glpi\Marketplace\View::installed()
+  .\src\CommonGLPI.php:738                           Glpi\Marketplace\View::displayTabContentForItem()
+  .\ajax\common.tabs.php:108                         CommonGLPI::displayStandardTab()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-04-23 13:41:29] glpi.ERROR:   *** SSL certificate problem: unable to get local issuer certificate
+  Backtrace :
+  ...achine\safe\lib\Exceptions\CurlException.php:12 
+  ...thecodingmachine\safe\generated\8.3\curl.php:67 Safe\Exceptions\CurlException::createFromPhpError()
+  .\src\Toolbox.php:1501                             Safe\curl_exec()
+  .\src\Toolbox.php:1387                             Toolbox::doCallCurl()
+  .\src\GLPINetwork.php:303                          Toolbox::callCurl()
+  .\src\Glpi\Marketplace\View.php:171                GLPINetwork::isServicesAvailable()
+  .\src\Glpi\Marketplace\View.php:231                Glpi\Marketplace\View::checkRegistrationStatus()
+  .\src\Glpi\Marketplace\View.php:141                Glpi\Marketplace\View::installed()
+  .\src\CommonGLPI.php:738                           Glpi\Marketplace\View::displayTabContentForItem()
+  .\ajax\common.tabs.php:108                         CommonGLPI::displayStandardTab()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-04-23 13:44:11] glpi.ERROR:   *** SSL certificate problem: unable to get local issuer certificate
+  Backtrace :
+  ...achine\safe\lib\Exceptions\CurlException.php:12 
+  ...thecodingmachine\safe\generated\8.3\curl.php:67 Safe\Exceptions\CurlException::createFromPhpError()
+  .\src\Toolbox.php:1501                             Safe\curl_exec()
+  .\src\Toolbox.php:1387                             Toolbox::doCallCurl()
+  .\src\GLPINetwork.php:303                          Toolbox::callCurl()
+  .\src\Glpi\Marketplace\View.php:171                GLPINetwork::isServicesAvailable()
+  .\src\Glpi\Marketplace\View.php:231                Glpi\Marketplace\View::checkRegistrationStatus()
+  .\src\Glpi\Marketplace\View.php:141                Glpi\Marketplace\View::installed()
+  .\src\CommonGLPI.php:738                           Glpi\Marketplace\View::displayTabContentForItem()
+  .\ajax\common.tabs.php:108                         CommonGLPI::displayStandardTab()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-04-23 13:44:16] glpi.ERROR:   *** SSL certificate problem: unable to get local issuer certificate
+  Backtrace :
+  ...achine\safe\lib\Exceptions\CurlException.php:12 
+  ...thecodingmachine\safe\generated\8.3\curl.php:67 Safe\Exceptions\CurlException::createFromPhpError()
+  .\src\Toolbox.php:1501                             Safe\curl_exec()
+  .\src\Toolbox.php:1387                             Toolbox::doCallCurl()
+  .\src\GLPINetwork.php:303                          Toolbox::callCurl()
+  .\src\Glpi\Marketplace\View.php:171                GLPINetwork::isServicesAvailable()
+  .\src\Glpi\Marketplace\View.php:231                Glpi\Marketplace\View::checkRegistrationStatus()
+  .\src\Glpi\Marketplace\View.php:141                Glpi\Marketplace\View::installed()
+  .\src\CommonGLPI.php:738                           Glpi\Marketplace\View::displayTabContentForItem()
+  .\ajax\common.tabs.php:108                         CommonGLPI::displayStandardTab()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-04-23 13:44:34] glpi.ERROR:   *** SSL certificate problem: unable to get local issuer certificate
+  Backtrace :
+  ...achine\safe\lib\Exceptions\CurlException.php:12 
+  ...thecodingmachine\safe\generated\8.3\curl.php:67 Safe\Exceptions\CurlException::createFromPhpError()
+  .\src\Toolbox.php:1501                             Safe\curl_exec()
+  .\src\Toolbox.php:1387                             Toolbox::doCallCurl()
+  .\src\GLPINetwork.php:303                          Toolbox::callCurl()
+  .\src\Glpi\Marketplace\View.php:171                GLPINetwork::isServicesAvailable()
+  .\src\Glpi\Marketplace\View.php:231                Glpi\Marketplace\View::checkRegistrationStatus()
+  .\src\Glpi\Marketplace\View.php:141                Glpi\Marketplace\View::installed()
+  .\src\CommonGLPI.php:738                           Glpi\Marketplace\View::displayTabContentForItem()
+  .\ajax\common.tabs.php:108                         CommonGLPI::displayStandardTab()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-04-23 13:44:41] glpi.ERROR:   *** SSL certificate problem: unable to get local issuer certificate
+  Backtrace :
+  ...achine\safe\lib\Exceptions\CurlException.php:12 
+  ...thecodingmachine\safe\generated\8.3\curl.php:67 Safe\Exceptions\CurlException::createFromPhpError()
+  .\src\Toolbox.php:1501                             Safe\curl_exec()
+  .\src\Toolbox.php:1387                             Toolbox::doCallCurl()
+  .\src\GLPINetwork.php:328                          Toolbox::callCurl()
+  .\src\Glpi\Marketplace\Controller.php:496          GLPINetwork::getOffers()
+  .\src\Glpi\Marketplace\View.php:614                Glpi\Marketplace\Controller->getRequiredOffers()
+  .\ajax\marketplace.php:74                          Glpi\Marketplace\View::getButtons()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-04-23 13:44:41] glpi.WARNING:   *** User Warning: Unable to fetch offers information.
+Error message:Échec de connexion. Si vous utilisez un proxy, merci de le configurer. (SSL certificate problem: unable to get local issuer certificate)
+Response:
+ at GLPINetwork.php line 344
+  Backtrace :
+  .\src\GLPINetwork.php:344                          
+  .\src\Glpi\Marketplace\Controller.php:496          GLPINetwork::getOffers()
+  .\src\Glpi\Marketplace\View.php:614                Glpi\Marketplace\Controller->getRequiredOffers()
+  .\ajax\marketplace.php:74                          Glpi\Marketplace\View::getButtons()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-04-23 13:44:45] glpi.ERROR:   *** SSL certificate problem: unable to get local issuer certificate
+  Backtrace :
+  ...achine\safe\lib\Exceptions\CurlException.php:12 
+  ...thecodingmachine\safe\generated\8.3\curl.php:67 Safe\Exceptions\CurlException::createFromPhpError()
+  .\src\Toolbox.php:1501                             Safe\curl_exec()
+  .\src\Toolbox.php:1387                             Toolbox::doCallCurl()
+  .\src\GLPINetwork.php:328                          Toolbox::callCurl()
+  .\src\Glpi\Marketplace\Controller.php:496          GLPINetwork::getOffers()
+  .\src\Glpi\Marketplace\View.php:614                Glpi\Marketplace\Controller->getRequiredOffers()
+  .\ajax\marketplace.php:74                          Glpi\Marketplace\View::getButtons()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-04-23 13:44:45] glpi.WARNING:   *** User Warning: Unable to fetch offers information.
+Error message:Échec de connexion. Si vous utilisez un proxy, merci de le configurer. (SSL certificate problem: unable to get local issuer certificate)
+Response:
+ at GLPINetwork.php line 344
+  Backtrace :
+  .\src\GLPINetwork.php:344                          
+  .\src\Glpi\Marketplace\Controller.php:496          GLPINetwork::getOffers()
+  .\src\Glpi\Marketplace\View.php:614                Glpi\Marketplace\Controller->getRequiredOffers()
+  .\ajax\marketplace.php:74                          Glpi\Marketplace\View::getButtons()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-04-23 13:44:52] glpi.ERROR:   *** SSL certificate problem: unable to get local issuer certificate
+  Backtrace :
+  ...achine\safe\lib\Exceptions\CurlException.php:12 
+  ...thecodingmachine\safe\generated\8.3\curl.php:67 Safe\Exceptions\CurlException::createFromPhpError()
+  .\src\Toolbox.php:1501                             Safe\curl_exec()
+  .\src\Toolbox.php:1387                             Toolbox::doCallCurl()
+  .\src\GLPINetwork.php:303                          Toolbox::callCurl()
+  .\src\Glpi\Marketplace\View.php:171                GLPINetwork::isServicesAvailable()
+  .\src\Glpi\Marketplace\View.php:231                Glpi\Marketplace\View::checkRegistrationStatus()
+  .\src\Glpi\Marketplace\View.php:141                Glpi\Marketplace\View::installed()
+  .\src\CommonGLPI.php:738                           Glpi\Marketplace\View::displayTabContentForItem()
+  .\ajax\common.tabs.php:108                         CommonGLPI::displayStandardTab()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-04-23 14:45:18] glpi.WARNING:   *** User Warning: Plugin "aiticketrouter" version changed. It has been deactivated as its update process has to be launched. at Plugin.php line 915
+  Backtrace :
+  .\src\Plugin.php:915                               
+  .\src\Plugin.php:751                               Plugin->checkPluginState()
+  ...ener\PostBootListener\CheckPluginsStates.php:67 Plugin->checkStates()
+  ...ymfony\event-dispatcher\EventDispatcher.php:260 Glpi\Kernel\Listener\PostBootListener\CheckPluginsStates->onPostBoot()
+  ...ymfony\event-dispatcher\EventDispatcher.php:220 Symfony\Component\EventDispatcher\EventDispatcher::Symfony\Component\EventDispatcher\{closure}()
+  ...symfony\event-dispatcher\EventDispatcher.php:56 Symfony\Component\EventDispatcher\EventDispatcher->callListeners()
+  .\src\Glpi\Kernel\Kernel.php:149                   Symfony\Component\EventDispatcher\EventDispatcher->dispatch()
+  .\vendor\symfony\http-kernel\Kernel.php:201        Glpi\Kernel\Kernel->boot()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-04-23 14:45:18] glpi.WARNING:   *** Warning: Undefined global variable $_SESSION at Event.php line 131
+  Backtrace :
+  .\src\Glpi\Event.php:131                           
+  .\src\Plugin.php:925                               Glpi\Event::log()
+  .\src\Plugin.php:751                               Plugin->checkPluginState()
+  ...ener\PostBootListener\CheckPluginsStates.php:67 Plugin->checkStates()
+  ...ymfony\event-dispatcher\EventDispatcher.php:260 Glpi\Kernel\Listener\PostBootListener\CheckPluginsStates->onPostBoot()
+  ...ymfony\event-dispatcher\EventDispatcher.php:220 Symfony\Component\EventDispatcher\EventDispatcher::Symfony\Component\EventDispatcher\{closure}()
+  ...symfony\event-dispatcher\EventDispatcher.php:56 Symfony\Component\EventDispatcher\EventDispatcher->callListeners()
+  .\src\Glpi\Kernel\Kernel.php:149                   Symfony\Component\EventDispatcher\EventDispatcher->dispatch()
+  .\vendor\symfony\http-kernel\Kernel.php:201        Glpi\Kernel\Kernel->boot()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-04-23 14:45:18] glpi.WARNING:   *** Warning: Trying to access array offset on null at Event.php line 131
+  Backtrace :
+  .\src\Glpi\Event.php:131                           
+  .\src\Plugin.php:925                               Glpi\Event::log()
+  .\src\Plugin.php:751                               Plugin->checkPluginState()
+  ...ener\PostBootListener\CheckPluginsStates.php:67 Plugin->checkStates()
+  ...ymfony\event-dispatcher\EventDispatcher.php:260 Glpi\Kernel\Listener\PostBootListener\CheckPluginsStates->onPostBoot()
+  ...ymfony\event-dispatcher\EventDispatcher.php:220 Symfony\Component\EventDispatcher\EventDispatcher::Symfony\Component\EventDispatcher\{closure}()
+  ...symfony\event-dispatcher\EventDispatcher.php:56 Symfony\Component\EventDispatcher\EventDispatcher->callListeners()
+  .\src\Glpi\Kernel\Kernel.php:149                   Symfony\Component\EventDispatcher\EventDispatcher->dispatch()
+  .\vendor\symfony\http-kernel\Kernel.php:201        Glpi\Kernel\Kernel->boot()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-04-23 14:45:58] glpi.ERROR:   *** SSL certificate problem: unable to get local issuer certificate
+  Backtrace :
+  ...achine\safe\lib\Exceptions\CurlException.php:12 
+  ...thecodingmachine\safe\generated\8.3\curl.php:67 Safe\Exceptions\CurlException::createFromPhpError()
+  .\src\Toolbox.php:1501                             Safe\curl_exec()
+  .\src\Toolbox.php:1387                             Toolbox::doCallCurl()
+  .\src\GLPINetwork.php:303                          Toolbox::callCurl()
+  .\src\Glpi\Marketplace\View.php:171                GLPINetwork::isServicesAvailable()
+  .\src\Glpi\Marketplace\View.php:231                Glpi\Marketplace\View::checkRegistrationStatus()
+  .\src\Glpi\Marketplace\View.php:141                Glpi\Marketplace\View::installed()
+  .\src\CommonGLPI.php:738                           Glpi\Marketplace\View::displayTabContentForItem()
+  .\ajax\common.tabs.php:108                         CommonGLPI::displayStandardTab()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-04-23 14:46:04] glpi.ERROR:   *** SSL certificate problem: unable to get local issuer certificate
+  Backtrace :
+  ...achine\safe\lib\Exceptions\CurlException.php:12 
+  ...thecodingmachine\safe\generated\8.3\curl.php:67 Safe\Exceptions\CurlException::createFromPhpError()
+  .\src\Toolbox.php:1501                             Safe\curl_exec()
+  .\src\Toolbox.php:1387                             Toolbox::doCallCurl()
+  .\src\GLPINetwork.php:328                          Toolbox::callCurl()
+  .\src\Glpi\Marketplace\Controller.php:496          GLPINetwork::getOffers()
+  .\src\Glpi\Marketplace\View.php:614                Glpi\Marketplace\Controller->getRequiredOffers()
+  .\ajax\marketplace.php:74                          Glpi\Marketplace\View::getButtons()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-04-23 14:46:04] glpi.WARNING:   *** User Warning: Unable to fetch offers information.
+Error message:Échec de connexion. Si vous utilisez un proxy, merci de le configurer. (SSL certificate problem: unable to get local issuer certificate)
+Response:
+ at GLPINetwork.php line 344
+  Backtrace :
+  .\src\GLPINetwork.php:344                          
+  .\src\Glpi\Marketplace\Controller.php:496          GLPINetwork::getOffers()
+  .\src\Glpi\Marketplace\View.php:614                Glpi\Marketplace\Controller->getRequiredOffers()
+  .\ajax\marketplace.php:74                          Glpi\Marketplace\View::getButtons()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-04-23 14:46:07] glpi.ERROR:   *** SSL certificate problem: unable to get local issuer certificate
+  Backtrace :
+  ...achine\safe\lib\Exceptions\CurlException.php:12 
+  ...thecodingmachine\safe\generated\8.3\curl.php:67 Safe\Exceptions\CurlException::createFromPhpError()
+  .\src\Toolbox.php:1501                             Safe\curl_exec()
+  .\src\Toolbox.php:1387                             Toolbox::doCallCurl()
+  .\src\GLPINetwork.php:328                          Toolbox::callCurl()
+  .\src\Glpi\Marketplace\Controller.php:496          GLPINetwork::getOffers()
+  .\src\Glpi\Marketplace\View.php:614                Glpi\Marketplace\Controller->getRequiredOffers()
+  .\ajax\marketplace.php:74                          Glpi\Marketplace\View::getButtons()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-04-23 14:46:07] glpi.WARNING:   *** User Warning: Unable to fetch offers information.
+Error message:Échec de connexion. Si vous utilisez un proxy, merci de le configurer. (SSL certificate problem: unable to get local issuer certificate)
+Response:
+ at GLPINetwork.php line 344
+  Backtrace :
+  .\src\GLPINetwork.php:344                          
+  .\src\Glpi\Marketplace\Controller.php:496          GLPINetwork::getOffers()
+  .\src\Glpi\Marketplace\View.php:614                Glpi\Marketplace\Controller->getRequiredOffers()
+  .\ajax\marketplace.php:74                          Glpi\Marketplace\View::getButtons()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-04-27 15:40:55] glpi.WARNING:   *** User Warning: Plugin "aiticketrouter" version changed. It has been deactivated as its update process has to be launched. at Plugin.php line 915
+  Backtrace :
+  .\src\Plugin.php:915                               
+  .\src\Plugin.php:751                               Plugin->checkPluginState()
+  ...ener\PostBootListener\CheckPluginsStates.php:67 Plugin->checkStates()
+  ...ymfony\event-dispatcher\EventDispatcher.php:260 Glpi\Kernel\Listener\PostBootListener\CheckPluginsStates->onPostBoot()
+  ...ymfony\event-dispatcher\EventDispatcher.php:220 Symfony\Component\EventDispatcher\EventDispatcher::Symfony\Component\EventDispatcher\{closure}()
+  ...symfony\event-dispatcher\EventDispatcher.php:56 Symfony\Component\EventDispatcher\EventDispatcher->callListeners()
+  .\src\Glpi\Kernel\Kernel.php:149                   Symfony\Component\EventDispatcher\EventDispatcher->dispatch()
+  .\vendor\symfony\http-kernel\Kernel.php:201        Glpi\Kernel\Kernel->boot()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-04-27 15:40:55] glpi.WARNING:   *** Warning: Undefined global variable $_SESSION at Event.php line 131
+  Backtrace :
+  .\src\Glpi\Event.php:131                           
+  .\src\Plugin.php:925                               Glpi\Event::log()
+  .\src\Plugin.php:751                               Plugin->checkPluginState()
+  ...ener\PostBootListener\CheckPluginsStates.php:67 Plugin->checkStates()
+  ...ymfony\event-dispatcher\EventDispatcher.php:260 Glpi\Kernel\Listener\PostBootListener\CheckPluginsStates->onPostBoot()
+  ...ymfony\event-dispatcher\EventDispatcher.php:220 Symfony\Component\EventDispatcher\EventDispatcher::Symfony\Component\EventDispatcher\{closure}()
+  ...symfony\event-dispatcher\EventDispatcher.php:56 Symfony\Component\EventDispatcher\EventDispatcher->callListeners()
+  .\src\Glpi\Kernel\Kernel.php:149                   Symfony\Component\EventDispatcher\EventDispatcher->dispatch()
+  .\vendor\symfony\http-kernel\Kernel.php:201        Glpi\Kernel\Kernel->boot()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-04-27 15:40:55] glpi.WARNING:   *** Warning: Trying to access array offset on null at Event.php line 131
+  Backtrace :
+  .\src\Glpi\Event.php:131                           
+  .\src\Plugin.php:925                               Glpi\Event::log()
+  .\src\Plugin.php:751                               Plugin->checkPluginState()
+  ...ener\PostBootListener\CheckPluginsStates.php:67 Plugin->checkStates()
+  ...ymfony\event-dispatcher\EventDispatcher.php:260 Glpi\Kernel\Listener\PostBootListener\CheckPluginsStates->onPostBoot()
+  ...ymfony\event-dispatcher\EventDispatcher.php:220 Symfony\Component\EventDispatcher\EventDispatcher::Symfony\Component\EventDispatcher\{closure}()
+  ...symfony\event-dispatcher\EventDispatcher.php:56 Symfony\Component\EventDispatcher\EventDispatcher->callListeners()
+  .\src\Glpi\Kernel\Kernel.php:149                   Symfony\Component\EventDispatcher\EventDispatcher->dispatch()
+  .\vendor\symfony\http-kernel\Kernel.php:201        Glpi\Kernel\Kernel->boot()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-04-27 15:42:03] glpi.ERROR:   *** SSL certificate problem: unable to get local issuer certificate
+  Backtrace :
+  ...achine\safe\lib\Exceptions\CurlException.php:12 
+  ...thecodingmachine\safe\generated\8.3\curl.php:67 Safe\Exceptions\CurlException::createFromPhpError()
+  .\src\Toolbox.php:1501                             Safe\curl_exec()
+  .\src\Toolbox.php:1387                             Toolbox::doCallCurl()
+  .\src\GLPINetwork.php:303                          Toolbox::callCurl()
+  .\src\Glpi\Marketplace\View.php:171                GLPINetwork::isServicesAvailable()
+  .\src\Glpi\Marketplace\View.php:231                Glpi\Marketplace\View::checkRegistrationStatus()
+  .\src\Glpi\Marketplace\View.php:141                Glpi\Marketplace\View::installed()
+  .\src\CommonGLPI.php:738                           Glpi\Marketplace\View::displayTabContentForItem()
+  .\ajax\common.tabs.php:108                         CommonGLPI::displayStandardTab()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-04-27 15:43:16] glpi.ERROR:   *** SSL certificate problem: unable to get local issuer certificate
+  Backtrace :
+  ...achine\safe\lib\Exceptions\CurlException.php:12 
+  ...thecodingmachine\safe\generated\8.3\curl.php:67 Safe\Exceptions\CurlException::createFromPhpError()
+  .\src\Toolbox.php:1501                             Safe\curl_exec()
+  .\src\Toolbox.php:1387                             Toolbox::doCallCurl()
+  .\src\GLPINetwork.php:328                          Toolbox::callCurl()
+  .\src\Glpi\Marketplace\Controller.php:496          GLPINetwork::getOffers()
+  .\src\Glpi\Marketplace\View.php:614                Glpi\Marketplace\Controller->getRequiredOffers()
+  .\ajax\marketplace.php:74                          Glpi\Marketplace\View::getButtons()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-04-27 15:43:16] glpi.WARNING:   *** User Warning: Unable to fetch offers information.
+Error message:Échec de connexion. Si vous utilisez un proxy, merci de le configurer. (SSL certificate problem: unable to get local issuer certificate)
+Response:
+ at GLPINetwork.php line 344
+  Backtrace :
+  .\src\GLPINetwork.php:344                          
+  .\src\Glpi\Marketplace\Controller.php:496          GLPINetwork::getOffers()
+  .\src\Glpi\Marketplace\View.php:614                Glpi\Marketplace\Controller->getRequiredOffers()
+  .\ajax\marketplace.php:74                          Glpi\Marketplace\View::getButtons()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-04-27 15:43:20] glpi.ERROR:   *** SSL certificate problem: unable to get local issuer certificate
+  Backtrace :
+  ...achine\safe\lib\Exceptions\CurlException.php:12 
+  ...thecodingmachine\safe\generated\8.3\curl.php:67 Safe\Exceptions\CurlException::createFromPhpError()
+  .\src\Toolbox.php:1501                             Safe\curl_exec()
+  .\src\Toolbox.php:1387                             Toolbox::doCallCurl()
+  .\src\GLPINetwork.php:328                          Toolbox::callCurl()
+  .\src\Glpi\Marketplace\Controller.php:496          GLPINetwork::getOffers()
+  .\src\Glpi\Marketplace\View.php:614                Glpi\Marketplace\Controller->getRequiredOffers()
+  .\ajax\marketplace.php:74                          Glpi\Marketplace\View::getButtons()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-04-27 15:43:20] glpi.WARNING:   *** User Warning: Unable to fetch offers information.
+Error message:Échec de connexion. Si vous utilisez un proxy, merci de le configurer. (SSL certificate problem: unable to get local issuer certificate)
+Response:
+ at GLPINetwork.php line 344
+  Backtrace :
+  .\src\GLPINetwork.php:344                          
+  .\src\Glpi\Marketplace\Controller.php:496          GLPINetwork::getOffers()
+  .\src\Glpi\Marketplace\View.php:614                Glpi\Marketplace\Controller->getRequiredOffers()
+  .\ajax\marketplace.php:74                          Glpi\Marketplace\View::getButtons()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-04-27 16:42:13] glpi.CRITICAL:   *** Uncaught PHP Exception RuntimeException: "MySQL query error: Unknown column 'glpi_documents.name LIKE' in 'where clause' (1054) in SQL query "SELECT `glpi_documents`.`id` AS `doc_id`, `glpi_documents`.`name` AS `doc_name`, `glpi_documents`.`filepath`, `glpi_documents_items`.`items_id` AS `user_id` FROM `glpi_documents` INNER JOIN `glpi_documents_items` ON (`glpi_documents`.`id` = `glpi_documents_items`.`documents_id`) WHERE `glpi_documents_items`.`itemtype` = 'User' AND `glpi_documents_items`.`items_id` > '0' AND `glpi_documents`.`name LIKE` = '%CV%'"." at DBmysql.php line 416
+  Backtrace :
+  .\src\DBmysql.php:416                              
+  .\src\DBmysqlIterator.php:129                      DBmysql->doQuery()
+  .\src\DBmysql.php:1088                             DBmysqlIterator->execute()
+  .\plugins\aiticketrouter\hook.php:111              DBmysql->request()
+  .\plugins\aiticketrouter\hook.php:363              plugin_aiticketrouter_get_tech_cvs()
+  .\plugins\aiticketrouter\hook.php:535              plugin_aiticketrouter_recommend_tech_with_gemini()
+  .\src\Plugin.php:1810                              plugin_aiticketrouter_on_ticket_add()
+  .\src\CommonDBTM.php:1432                          Plugin::doHook()
+  .\front\ticket.form.php:79                         CommonDBTM->add()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-04-27 16:42:23] glpi.CRITICAL:   *** Uncaught PHP Exception RuntimeException: "MySQL query error: Unknown column 'glpi_documents.name LIKE' in 'where clause' (1054) in SQL query "SELECT `glpi_documents`.`id` AS `doc_id`, `glpi_documents`.`name` AS `doc_name`, `glpi_documents`.`filepath`, `glpi_documents_items`.`items_id` AS `user_id` FROM `glpi_documents` INNER JOIN `glpi_documents_items` ON (`glpi_documents`.`id` = `glpi_documents_items`.`documents_id`) WHERE `glpi_documents_items`.`itemtype` = 'User' AND `glpi_documents_items`.`items_id` > '0' AND `glpi_documents`.`name LIKE` = '%CV%'"." at DBmysql.php line 416
+  Backtrace :
+  .\src\DBmysql.php:416                              
+  .\src\DBmysqlIterator.php:129                      DBmysql->doQuery()
+  .\src\DBmysql.php:1088                             DBmysqlIterator->execute()
+  .\plugins\aiticketrouter\hook.php:111              DBmysql->request()
+  .\plugins\aiticketrouter\hook.php:363              plugin_aiticketrouter_get_tech_cvs()
+  .\plugins\aiticketrouter\hook.php:535              plugin_aiticketrouter_recommend_tech_with_gemini()
+  .\src\Plugin.php:1810                              plugin_aiticketrouter_on_ticket_add()
+  .\src\CommonDBTM.php:1432                          Plugin::doHook()
+  .\front\ticket.form.php:79                         CommonDBTM->add()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-04-27 16:43:07] glpi.CRITICAL:   *** Uncaught PHP Exception RuntimeException: "MySQL query error: Unknown column 'glpi_documents.name LIKE' in 'where clause' (1054) in SQL query "SELECT `glpi_documents`.`id` AS `doc_id`, `glpi_documents`.`name` AS `doc_name`, `glpi_documents`.`filepath`, `glpi_documents_items`.`items_id` AS `user_id` FROM `glpi_documents` INNER JOIN `glpi_documents_items` ON (`glpi_documents`.`id` = `glpi_documents_items`.`documents_id`) WHERE `glpi_documents_items`.`itemtype` = 'User' AND `glpi_documents_items`.`items_id` > '0' AND `glpi_documents`.`name LIKE` = '%CV%'"." at DBmysql.php line 416
+  Backtrace :
+  .\src\DBmysql.php:416                              
+  .\src\DBmysqlIterator.php:129                      DBmysql->doQuery()
+  .\src\DBmysql.php:1088                             DBmysqlIterator->execute()
+  .\plugins\aiticketrouter\hook.php:111              DBmysql->request()
+  .\plugins\aiticketrouter\hook.php:363              plugin_aiticketrouter_get_tech_cvs()
+  .\plugins\aiticketrouter\hook.php:535              plugin_aiticketrouter_recommend_tech_with_gemini()
+  .\src\Plugin.php:1810                              plugin_aiticketrouter_on_ticket_add()
+  .\src\CommonDBTM.php:1432                          Plugin::doHook()
+  .\front\ticket.form.php:79                         CommonDBTM->add()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-04-27 17:01:36] glpi.CRITICAL:   *** Uncaught PHP Exception Error: "Undefined constant "PLUGIN_AITICKETROUTER_GEMINI_KEY"" at hook.php line 8
+  Backtrace :
+  .\plugins\aiticketrouter\hook.php:8                
+  .\plugins\aiticketrouter\hook.php:244              plugin_aiticketrouter_call_gemini()
+  .\plugins\aiticketrouter\hook.php:384              plugin_aiticketrouter_analyze()
+  .\src\Plugin.php:1810                              plugin_aiticketrouter_on_ticket_add()
+  .\src\CommonDBTM.php:1432                          Plugin::doHook()
+  .\front\ticket.form.php:79                         CommonDBTM->add()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-04-27 17:03:42] glpi.CRITICAL:   *** Uncaught PHP Exception Error: "Undefined constant "PLUGIN_AITICKETROUTER_GEMINI_KEY"" at hook.php line 8
+  Backtrace :
+  .\plugins\aiticketrouter\hook.php:8                
+  .\plugins\aiticketrouter\hook.php:244              plugin_aiticketrouter_call_gemini()
+  .\plugins\aiticketrouter\hook.php:385              plugin_aiticketrouter_analyze()
+  .\src\Plugin.php:1810                              plugin_aiticketrouter_on_ticket_add()
+  .\src\CommonDBTM.php:1432                          Plugin::doHook()
+  .\front\ticket.form.php:79                         CommonDBTM->add()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-04-27 17:09:54] glpi.CRITICAL:   *** Uncaught PHP Exception Error: "Undefined constant "PLUGIN_AITICKETROUTER_GEMINI_KEY"" at hook.php line 8
+  Backtrace :
+  .\plugins\aiticketrouter\hook.php:8                
+  .\plugins\aiticketrouter\hook.php:108              plugin_aiticketrouter_call_gemini()
+  .\plugins\aiticketrouter\hook.php:248              plugin_aiticketrouter_analyze()
+  .\src\Plugin.php:1810                              plugin_aiticketrouter_on_ticket_add()
+  .\src\CommonDBTM.php:1432                          Plugin::doHook()
+  .\front\ticket.form.php:79                         CommonDBTM->add()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-04-27 17:49:35] glpi.CRITICAL:   *** Uncaught PHP Exception ParseError: "Unmatched '}'" at hook.php line 743
+  Backtrace :
+  .\plugins\aiticketrouter\hook.php:743              
+  .\src\Plugin.php:2118                              Plugin::includeHook()
+  .\src\Glpi\Search\SearchOption.php:375             Plugin::getAddSearchOptions()
+  .\src\ITILTemplate.php:421                         Glpi\Search\SearchOption::getOptionsForItemtype()
+  .\src\CommonITILObject.php:1895                    ITILTemplate->getAllowedFieldsNames()
+  .\src\CommonITILObject.php:1933                    CommonITILObject->handleTemplateFields()
+  .\src\CommonITILObject.php:7422                    CommonITILObject->checkRequiredFieldsFilled()
+  .\src\Ticket.php:3790                              CommonITILObject->getTimelineItemtypes()
+  .\src\CommonGLPI.php:706                           Ticket->showForm()
+  .\ajax\common.tabs.php:108                         CommonGLPI::displayStandardTab()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-04-27 17:49:37] glpi.CRITICAL:   *** Uncaught PHP Exception ParseError: "Unmatched '}'" at hook.php line 743
+  Backtrace :
+  .\plugins\aiticketrouter\hook.php:743              
+  .\src\Plugin.php:2118                              Plugin::includeHook()
+  .\src\Glpi\Search\SearchOption.php:375             Plugin::getAddSearchOptions()
+  .\src\ITILTemplate.php:421                         Glpi\Search\SearchOption::getOptionsForItemtype()
+  .\src\CommonITILObject.php:1895                    ITILTemplate->getAllowedFieldsNames()
+  .\src\CommonITILObject.php:1933                    CommonITILObject->handleTemplateFields()
+  .\src\CommonITILObject.php:7422                    CommonITILObject->checkRequiredFieldsFilled()
+  .\src\Ticket.php:3790                              CommonITILObject->getTimelineItemtypes()
+  .\src\CommonGLPI.php:706                           Ticket->showForm()
+  .\ajax\common.tabs.php:108                         CommonGLPI::displayStandardTab()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-04-27 17:49:39] glpi.CRITICAL:   *** Uncaught PHP Exception ParseError: "Unmatched '}'" at hook.php line 743
+  Backtrace :
+  .\plugins\aiticketrouter\hook.php:743              
+  .\src\Plugin.php:2118                              Plugin::includeHook()
+  .\src\Glpi\Search\SearchOption.php:375             Plugin::getAddSearchOptions()
+  .\src\ITILTemplate.php:421                         Glpi\Search\SearchOption::getOptionsForItemtype()
+  .\src\CommonITILObject.php:1895                    ITILTemplate->getAllowedFieldsNames()
+  .\src\CommonITILObject.php:1933                    CommonITILObject->handleTemplateFields()
+  .\src\CommonITILObject.php:7422                    CommonITILObject->checkRequiredFieldsFilled()
+  .\src\Ticket.php:3790                              CommonITILObject->getTimelineItemtypes()
+  .\src\CommonGLPI.php:706                           Ticket->showForm()
+  .\ajax\common.tabs.php:108                         CommonGLPI::displayStandardTab()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-04-27 18:04:25] glpi.WARNING:   *** Warning: Undefined variable $technicians at hook.php line 570
+  Backtrace :
+  .\plugins\aiticketrouter\hook.php:570              
+  .\src\Plugin.php:1810                              plugin_aiticketrouter_on_ticket_add()
+  .\src\CommonDBTM.php:1432                          Plugin::doHook()
+  .\front\ticket.form.php:79                         CommonDBTM->add()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-04-27 18:04:25] glpi.CRITICAL:   *** Uncaught PHP Exception TypeError: "array_filter(): Argument #1 ($array) must be of type array, null given" at hook.php line 570
+  Backtrace :
+  .\plugins\aiticketrouter\hook.php:570              
+  .\plugins\aiticketrouter\hook.php:570              array_filter()
+  .\src\Plugin.php:1810                              plugin_aiticketrouter_on_ticket_add()
+  .\src\CommonDBTM.php:1432                          Plugin::doHook()
+  .\front\ticket.form.php:79                         CommonDBTM->add()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-05-02 22:19:37] glpi.ERROR:   *** SSL certificate problem: unable to get local issuer certificate
+  Backtrace :
+  ...achine\safe\lib\Exceptions\CurlException.php:12 
+  ...thecodingmachine\safe\generated\8.3\curl.php:67 Safe\Exceptions\CurlException::createFromPhpError()
+  .\src\Toolbox.php:1501                             Safe\curl_exec()
+  .\src\Toolbox.php:1387                             Toolbox::doCallCurl()
+  .\src\GLPINetwork.php:303                          Toolbox::callCurl()
+  .\src\Glpi\Marketplace\View.php:171                GLPINetwork::isServicesAvailable()
+  .\src\Glpi\Marketplace\View.php:231                Glpi\Marketplace\View::checkRegistrationStatus()
+  .\src\Glpi\Marketplace\View.php:141                Glpi\Marketplace\View::installed()
+  .\src\CommonGLPI.php:738                           Glpi\Marketplace\View::displayTabContentForItem()
+  .\ajax\common.tabs.php:108                         CommonGLPI::displayStandardTab()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-05-09 00:00:43] glpi.ERROR:   *** SSL certificate problem: unable to get local issuer certificate
+  Backtrace :
+  ...achine\safe\lib\Exceptions\CurlException.php:12 
+  ...thecodingmachine\safe\generated\8.3\curl.php:67 Safe\Exceptions\CurlException::createFromPhpError()
+  .\src\Toolbox.php:1501                             Safe\curl_exec()
+  .\src\Toolbox.php:1387                             Toolbox::doCallCurl()
+  .\src\GLPINetwork.php:303                          Toolbox::callCurl()
+  .\src\Glpi\Marketplace\View.php:171                GLPINetwork::isServicesAvailable()
+  .\src\Glpi\Marketplace\View.php:231                Glpi\Marketplace\View::checkRegistrationStatus()
+  .\src\Glpi\Marketplace\View.php:141                Glpi\Marketplace\View::installed()
+  .\src\CommonGLPI.php:738                           Glpi\Marketplace\View::displayTabContentForItem()
+  .\ajax\common.tabs.php:108                         CommonGLPI::displayStandardTab()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-05-09 00:00:58] glpi.ERROR:   *** SSL certificate problem: unable to get local issuer certificate
+  Backtrace :
+  ...achine\safe\lib\Exceptions\CurlException.php:12 
+  ...thecodingmachine\safe\generated\8.3\curl.php:67 Safe\Exceptions\CurlException::createFromPhpError()
+  .\src\Toolbox.php:1501                             Safe\curl_exec()
+  .\src\Toolbox.php:1387                             Toolbox::doCallCurl()
+  .\src\GLPINetwork.php:303                          Toolbox::callCurl()
+  .\src\Glpi\Marketplace\View.php:171                GLPINetwork::isServicesAvailable()
+  .\src\Glpi\Marketplace\View.php:231                Glpi\Marketplace\View::checkRegistrationStatus()
+  .\src\Glpi\Marketplace\View.php:141                Glpi\Marketplace\View::installed()
+  .\src\CommonGLPI.php:738                           Glpi\Marketplace\View::displayTabContentForItem()
+  .\ajax\common.tabs.php:108                         CommonGLPI::displayStandardTab()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-05-09 00:01:02] glpi.ERROR:   *** SSL certificate problem: unable to get local issuer certificate
+  Backtrace :
+  ...achine\safe\lib\Exceptions\CurlException.php:12 
+  ...thecodingmachine\safe\generated\8.3\curl.php:67 Safe\Exceptions\CurlException::createFromPhpError()
+  .\src\Toolbox.php:1501                             Safe\curl_exec()
+  .\src\Toolbox.php:1387                             Toolbox::doCallCurl()
+  .\src\GLPINetwork.php:328                          Toolbox::callCurl()
+  .\src\Glpi\Marketplace\Controller.php:496          GLPINetwork::getOffers()
+  .\src\Glpi\Marketplace\View.php:614                Glpi\Marketplace\Controller->getRequiredOffers()
+  .\ajax\marketplace.php:74                          Glpi\Marketplace\View::getButtons()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-05-09 00:01:02] glpi.WARNING:   *** User Warning: Unable to fetch offers information.
+Error message:Échec de connexion. Si vous utilisez un proxy, merci de le configurer. (SSL certificate problem: unable to get local issuer certificate)
+Response:
+ at GLPINetwork.php line 344
+  Backtrace :
+  .\src\GLPINetwork.php:344                          
+  .\src\Glpi\Marketplace\Controller.php:496          GLPINetwork::getOffers()
+  .\src\Glpi\Marketplace\View.php:614                Glpi\Marketplace\Controller->getRequiredOffers()
+  .\ajax\marketplace.php:74                          Glpi\Marketplace\View::getButtons()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-05-09 00:01:05] glpi.ERROR:   *** SSL certificate problem: unable to get local issuer certificate
+  Backtrace :
+  ...achine\safe\lib\Exceptions\CurlException.php:12 
+  ...thecodingmachine\safe\generated\8.3\curl.php:67 Safe\Exceptions\CurlException::createFromPhpError()
+  .\src\Toolbox.php:1501                             Safe\curl_exec()
+  .\src\Toolbox.php:1387                             Toolbox::doCallCurl()
+  .\src\GLPINetwork.php:328                          Toolbox::callCurl()
+  .\src\Glpi\Marketplace\Controller.php:496          GLPINetwork::getOffers()
+  .\src\Glpi\Marketplace\View.php:614                Glpi\Marketplace\Controller->getRequiredOffers()
+  .\ajax\marketplace.php:74                          Glpi\Marketplace\View::getButtons()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-05-09 00:01:05] glpi.WARNING:   *** User Warning: Unable to fetch offers information.
+Error message:Échec de connexion. Si vous utilisez un proxy, merci de le configurer. (SSL certificate problem: unable to get local issuer certificate)
+Response:
+ at GLPINetwork.php line 344
+  Backtrace :
+  .\src\GLPINetwork.php:344                          
+  .\src\Glpi\Marketplace\Controller.php:496          GLPINetwork::getOffers()
+  .\src\Glpi\Marketplace\View.php:614                Glpi\Marketplace\Controller->getRequiredOffers()
+  .\ajax\marketplace.php:74                          Glpi\Marketplace\View::getButtons()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-05-09 00:02:35] glpi.ERROR:   *** SSL certificate problem: unable to get local issuer certificate
+  Backtrace :
+  ...achine\safe\lib\Exceptions\CurlException.php:12 
+  ...thecodingmachine\safe\generated\8.3\curl.php:67 Safe\Exceptions\CurlException::createFromPhpError()
+  .\src\Toolbox.php:1501                             Safe\curl_exec()
+  .\src\Toolbox.php:1387                             Toolbox::doCallCurl()
+  .\src\GLPINetwork.php:303                          Toolbox::callCurl()
+  .\src\Glpi\Marketplace\View.php:171                GLPINetwork::isServicesAvailable()
+  .\src\Glpi\Marketplace\View.php:231                Glpi\Marketplace\View::checkRegistrationStatus()
+  .\src\Glpi\Marketplace\View.php:141                Glpi\Marketplace\View::installed()
+  .\src\CommonGLPI.php:738                           Glpi\Marketplace\View::displayTabContentForItem()
+  .\ajax\common.tabs.php:108                         CommonGLPI::displayStandardTab()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-05-09 00:02:40] glpi.ERROR:   *** SSL certificate problem: unable to get local issuer certificate
+  Backtrace :
+  ...achine\safe\lib\Exceptions\CurlException.php:12 
+  ...thecodingmachine\safe\generated\8.3\curl.php:67 Safe\Exceptions\CurlException::createFromPhpError()
+  .\src\Toolbox.php:1501                             Safe\curl_exec()
+  .\src\Toolbox.php:1387                             Toolbox::doCallCurl()
+  .\src\GLPINetwork.php:303                          Toolbox::callCurl()
+  .\src\Glpi\Marketplace\View.php:171                GLPINetwork::isServicesAvailable()
+  .\src\Glpi\Marketplace\View.php:231                Glpi\Marketplace\View::checkRegistrationStatus()
+  .\src\Glpi\Marketplace\View.php:141                Glpi\Marketplace\View::installed()
+  .\src\CommonGLPI.php:738                           Glpi\Marketplace\View::displayTabContentForItem()
+  .\ajax\common.tabs.php:108                         CommonGLPI::displayStandardTab()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-05-13 23:18:28] glpi.CRITICAL:   *** Uncaught PHP Exception Symfony\Component\ErrorHandler\Error\UndefinedMethodError: "Attempted to call an undefined method named "blockOverloadedTech" of class "GlpiPlugin\Aiticketrouter\Controller\TicketRoutingController"." at hook.php line 45
+  Backtrace :
+  .\plugins\aiticketrouter\hook.php:45               
+  .\src\Plugin.php:1810                              plugin_aiticketrouter_block_overloaded_tech()
+  .\src\CommonDBTM.php:1674                          Plugin::doHook()
+  .\src\Ticket.php:1984                              CommonDBTM->update()
+  .\src\CommonITILActor.php:316                      Ticket->updateDateMod()
+  .\src\CommonDBTM.php:1398                          CommonITILActor->post_addItem()
+  .\src\CommonITILObject.php:9614                    CommonDBTM->add()
+  .\src\CommonITILObject.php:3228                    CommonITILObject->updateActors()
+  .\src\Ticket.php:1822                              CommonITILObject->post_addItem()
+  .\src\CommonDBTM.php:1398                          Ticket->post_addItem()
+  .\front\ticket.form.php:79                         CommonDBTM->add()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-05-13 23:31:30] glpi.CRITICAL:   *** Uncaught PHP Exception Symfony\Component\ErrorHandler\Error\UndefinedMethodError: "Attempted to call an undefined method named "blockOverloadedTech" of class "GlpiPlugin\Aiticketrouter\Controller\TicketRoutingController"." at hook.php line 45
+  Backtrace :
+  .\plugins\aiticketrouter\hook.php:45               
+  .\src\Plugin.php:1810                              plugin_aiticketrouter_block_overloaded_tech()
+  .\src\CommonDBTM.php:1674                          Plugin::doHook()
+  .\src\Ticket.php:1984                              CommonDBTM->update()
+  .\src\CommonITILActor.php:316                      Ticket->updateDateMod()
+  .\src\CommonDBTM.php:1398                          CommonITILActor->post_addItem()
+  .\src\CommonITILObject.php:9614                    CommonDBTM->add()
+  .\src\CommonITILObject.php:3228                    CommonITILObject->updateActors()
+  .\src\Ticket.php:1822                              CommonITILObject->post_addItem()
+  .\src\CommonDBTM.php:1398                          Ticket->post_addItem()
+  .\front\ticket.form.php:79                         CommonDBTM->add()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-05-13 23:37:58] glpi.CRITICAL:   *** Uncaught PHP Exception Symfony\Component\ErrorHandler\Error\UndefinedMethodError: "Attempted to call an undefined method named "blockOverloadedTech" of class "GlpiPlugin\Aiticketrouter\Controller\TicketRoutingController"." at hook.php line 45
+  Backtrace :
+  .\plugins\aiticketrouter\hook.php:45               
+  .\src\Plugin.php:1810                              plugin_aiticketrouter_block_overloaded_tech()
+  .\src\CommonDBTM.php:1674                          Plugin::doHook()
+  .\src\Ticket.php:1984                              CommonDBTM->update()
+  .\src\CommonITILActor.php:316                      Ticket->updateDateMod()
+  .\src\CommonDBTM.php:1398                          CommonITILActor->post_addItem()
+  .\src\CommonITILObject.php:9614                    CommonDBTM->add()
+  .\src\CommonITILObject.php:3228                    CommonITILObject->updateActors()
+  .\src\Ticket.php:1822                              CommonITILObject->post_addItem()
+  .\src\CommonDBTM.php:1398                          Ticket->post_addItem()
+  .\front\ticket.form.php:79                         CommonDBTM->add()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-05-13 23:38:18] glpi.CRITICAL:   *** Uncaught PHP Exception Symfony\Component\ErrorHandler\Error\UndefinedMethodError: "Attempted to call an undefined method named "blockOverloadedTech" of class "GlpiPlugin\Aiticketrouter\Controller\TicketRoutingController"." at hook.php line 45
+  Backtrace :
+  .\plugins\aiticketrouter\hook.php:45               
+  .\src\Plugin.php:1810                              plugin_aiticketrouter_block_overloaded_tech()
+  .\src\CommonDBTM.php:1674                          Plugin::doHook()
+  .\src\Ticket.php:1984                              CommonDBTM->update()
+  .\src\CommonITILActor.php:316                      Ticket->updateDateMod()
+  .\src\CommonDBTM.php:1398                          CommonITILActor->post_addItem()
+  .\src\CommonITILObject.php:9614                    CommonDBTM->add()
+  .\src\CommonITILObject.php:3228                    CommonITILObject->updateActors()
+  .\src\Ticket.php:1822                              CommonITILObject->post_addItem()
+  .\src\CommonDBTM.php:1398                          Ticket->post_addItem()
+  .\front\ticket.form.php:79                         CommonDBTM->add()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-05-13 23:59:30] glpi.ERROR:   *** Resolving timed out after 5001 milliseconds
+  Backtrace :
+  ...achine\safe\lib\Exceptions\CurlException.php:12 
+  ...thecodingmachine\safe\generated\8.3\curl.php:67 Safe\Exceptions\CurlException::createFromPhpError()
+  .\src\Toolbox.php:1501                             Safe\curl_exec()
+  .\src\Toolbox.php:1387                             Toolbox::doCallCurl()
+  .\src\GLPINetwork.php:303                          Toolbox::callCurl()
+  .\src\Glpi\Marketplace\View.php:171                GLPINetwork::isServicesAvailable()
+  .\src\Glpi\Marketplace\View.php:231                Glpi\Marketplace\View::checkRegistrationStatus()
+  .\src\Glpi\Marketplace\View.php:141                Glpi\Marketplace\View::installed()
+  .\src\CommonGLPI.php:738                           Glpi\Marketplace\View::displayTabContentForItem()
+  .\ajax\common.tabs.php:108                         CommonGLPI::displayStandardTab()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-05-13 23:59:49] glpi.WARNING:   *** Warning: The use statement with non-compound name 'Session' has no effect at config.php line 7
+  Backtrace :
+  .\plugins\aiticketrouter\front\config.php:7        
+  .\src\Glpi\Error\ErrorHandler.php:189              Symfony\Component\ErrorHandler\ErrorHandler->handleError()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 Glpi\Error\ErrorHandler->handleError()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-05-13 23:59:49] glpi.WARNING:   *** Warning: The use statement with non-compound name 'Html' has no effect at config.php line 8
+  Backtrace :
+  .\plugins\aiticketrouter\front\config.php:8        
+  .\src\Glpi\Error\ErrorHandler.php:189              Symfony\Component\ErrorHandler\ErrorHandler->handleError()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 Glpi\Error\ErrorHandler->handleError()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-05-14 00:00:31] glpi.CRITICAL:   *** Uncaught PHP Exception Symfony\Component\ErrorHandler\Error\FatalError: "Compile Error: Declaration of GlpiPlugin\Aiticketrouter\Service\AI\GeminiProvider::analyzeTicket(string $title, string $content): ?array must be compatible with GlpiPlugin\Aiticketrouter\Service\AI\AIProviderInterface::analyzeTicket(string $title, string $content, array $documents = []): ?array" at GeminiProvider.php line 8
+  Backtrace :
+  ...icketrouter\src\Service\AI\GeminiProvider.php:8 
+
+[2026-05-14 00:02:32] glpi.CRITICAL:   *** Uncaught PHP Exception Symfony\Component\ErrorHandler\Error\FatalError: "Compile Error: Declaration of GlpiPlugin\Aiticketrouter\Service\AI\GeminiProvider::analyzeTicket(string $title, string $content): ?array must be compatible with GlpiPlugin\Aiticketrouter\Service\AI\AIProviderInterface::analyzeTicket(string $title, string $content, array $documents = []): ?array" at GeminiProvider.php line 8
+  Backtrace :
+  ...icketrouter\src\Service\AI\GeminiProvider.php:8 
+
+[2026-05-14 00:03:50] glpi.CRITICAL:   *** Uncaught PHP Exception Symfony\Component\ErrorHandler\Error\FatalError: "Compile Error: Declaration of GlpiPlugin\Aiticketrouter\Service\AI\GeminiProvider::analyzeTicket(string $title, string $content): ?array must be compatible with GlpiPlugin\Aiticketrouter\Service\AI\AIProviderInterface::analyzeTicket(string $title, string $content, array $documents = []): ?array" at GeminiProvider.php line 8
+  Backtrace :
+  ...icketrouter\src\Service\AI\GeminiProvider.php:8 
+
+[2026-05-14 00:05:48] glpi.CRITICAL:   *** Uncaught PHP Exception Symfony\Component\ErrorHandler\Error\FatalError: "Compile Error: Declaration of GlpiPlugin\Aiticketrouter\Service\AI\GeminiProvider::analyzeTicket(string $title, string $content): ?array must be compatible with GlpiPlugin\Aiticketrouter\Service\AI\AIProviderInterface::analyzeTicket(string $title, string $content, array $documents = []): ?array" at GeminiProvider.php line 8
+  Backtrace :
+  ...icketrouter\src\Service\AI\GeminiProvider.php:8 
+
+[2026-05-14 00:08:37] glpi.CRITICAL:   *** Uncaught PHP Exception Symfony\Component\ErrorHandler\Error\FatalError: "Compile Error: Declaration of GlpiPlugin\Aiticketrouter\Service\AI\GeminiProvider::analyzeTicket(string $title, string $content): ?array must be compatible with GlpiPlugin\Aiticketrouter\Service\AI\AIProviderInterface::analyzeTicket(string $title, string $content, array $documents = []): ?array" at GeminiProvider.php line 8
+  Backtrace :
+  ...icketrouter\src\Service\AI\GeminiProvider.php:8 
+
+[2026-05-14 00:16:12] glpi.CRITICAL:   *** Uncaught PHP Exception Exception: "Executing direct queries is not allowed!" at DBmysql.php line 388
+  Backtrace :
+  .\src\DBmysql.php:388                              
+  ...\src\Controller\TicketRoutingController.php:300 DBmysql->query()
+  ...r\src\Controller\TicketRoutingController.php:46 GlpiPlugin\Aiticketrouter\Controller\TicketRoutingController->getTicketDocuments()
+  .\plugins\aiticketrouter\hook.php:35               GlpiPlugin\Aiticketrouter\Controller\TicketRoutingController->onTicketAdd()
+  .\src\Plugin.php:1810                              plugin_aiticketrouter_on_ticket_add()
+  .\src\CommonDBTM.php:1432                          Plugin::doHook()
+  .\front\ticket.form.php:79                         CommonDBTM->add()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
+[2026-05-14 00:20:47] glpi.CRITICAL:   *** Uncaught PHP Exception Exception: "Executing direct queries is not allowed!" at DBmysql.php line 388
+  Backtrace :
+  .\src\DBmysql.php:388                              
+  ...\src\Controller\TicketRoutingController.php:303 DBmysql->query()
+  ...r\src\Controller\TicketRoutingController.php:48 GlpiPlugin\Aiticketrouter\Controller\TicketRoutingController->getTicketDocuments()
+  .\plugins\aiticketrouter\hook.php:35               GlpiPlugin\Aiticketrouter\Controller\TicketRoutingController->onTicketAdd()
+  .\src\Plugin.php:1810                              plugin_aiticketrouter_on_ticket_add()
+  .\src\CommonDBTM.php:1432                          Plugin::doHook()
+  .\front\ticket.form.php:79                         CommonDBTM->add()
+  ...Glpi\Controller\LegacyFileLoadController.php:64 require()
+  .\vendor\symfony\http-kernel\HttpKernel.php:181    Glpi\Controller\LegacyFileLoadController->__invoke()
+  .\vendor\symfony\http-kernel\HttpKernel.php:76     Symfony\Component\HttpKernel\HttpKernel->handleRaw()
+  .\vendor\symfony\http-kernel\Kernel.php:208        Symfony\Component\HttpKernel\HttpKernel->handle()
+  .\public\index.php:71                              Symfony\Component\HttpKernel\Kernel->handle()
+
